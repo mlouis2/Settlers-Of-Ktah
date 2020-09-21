@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SettlersOfKtah",
+			"Path": "/Users/merissa/OneDrive - lmu.edu/LMU/Fall 2020/Software Engineering Lab/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtah.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SettlersOfKtahEditor",
+			"Path": "/Users/merissa/OneDrive - lmu.edu/LMU/Fall 2020/Software Engineering Lab/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtahEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

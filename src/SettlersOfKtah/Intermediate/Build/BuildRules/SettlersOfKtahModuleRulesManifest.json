@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/merissa/OneDrive - lmu.edu/LMU/Fall 2020/Software Engineering Lab/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtah/SettlersOfKtah.Build.cs",
+		"/Users/merissa/OneDrive - lmu.edu/LMU/Fall 2020/Software Engineering Lab/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtah.Target.cs",
+		"/Users/merissa/OneDrive - lmu.edu/LMU/Fall 2020/Software Engineering Lab/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtahEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

@@ -1,0 +1,28 @@
+
+
+Evaluation and Feedback
+CMSI 401 project ~~ Fall 2020
+Maddie Louis, Merissa Tan [plus Kaitlyn Behrens, Haley Mech]
+Settlers of K'tah game project
+=================================
+Presentation:
+   nicely done presentation, with good graphics and illustrations.  I like
+   the idea of combining these two games, and the potential for an AI portion
+   or component is intriguing ~ much more than the previous two iterations of
+   the K'tah game in which the zombies just follow you around like a mouse
+   tracker.  this adds a new dimension, and having animation involved should
+   give you a really significant "wow" factor to the project!
+
+Proposal Document:
+   nice job on the proposal document.  you have covered all the bases, as I
+   had no doubt you would do...  :D  Linking to the detailed documentation on
+   Google Drive was an inspired way to bring in those details!  I see you
+   have assembled quite a team for this project, and the interdisciplinary
+   nature will be a good thing!  keep in mind that the bigger the team the
+   harder it may be to get everyone together for meetings, especially later
+   in the semester.
+
+=============================================================================
+Great job on this presentation and proposal!
+
+your score:  5% out of 5% which is an A-plus

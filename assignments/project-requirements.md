@@ -9,53 +9,31 @@ This Software Requirements Specification document details the requirements for "
 
 ## 5.2 CSCI Component Breakdown
 ### 5.2.1 In-Game Components
-#### 5.2.1.1 Title Screen
-Has three components: a character customization option, a general game settings option, and the join game button.
-##### 5.2.1.1.1 Character Customization
-Allows players to customize their characters' appearances.
-The title screen shall allow players to customize their characters' appearances.
-##### 5.2.1.1.2 Game Settings Menu
-Brings up a modal view that presents several different game options.
-##### 5.2.1.1.3 Rule Book Menu
-Brings up a modal view that presents the game rules.
-##### 5.2.1.1.4 Join Game Button
-Allows player to connect to the game in order to play.
+#### 5.2.1.1 Title Screen - has three components: a character customization option, a general game settings option, and the join game button.
+##### 5.2.1.1.1 Character Customization - allows players to customize their characters' appearances.
+##### 5.2.1.1.2 Game Settings Menu - brings up a modal view that presents several different game options.
+##### 5.2.1.1.3 Rule Book Menu - brings up a modal view that presents the game rules.
+##### 5.2.1.1.4 Join Game Button- allows player to connect to the game in order to play.
 
-#### 5.2.1.2 Main Game Scene
-The main game scene comprises the actual gameplay and interactions between players and assets.
-##### 5.2.1.2.1 Main Game Menus
-The main game menus specify different ways that players can advance in the game during their turns.
-###### 5.2.1.2.1.1 Build Menu
-Allows players to build a variety of different structures and resources.
-###### 5.2.1.2.1.2 Attack Menu
-Allows players to attack the zombie horde when it is on other tiles.
-###### 5.2.1.2.1.3 Trade Menu
-Allows players to interact with each other through trade.
-##### 5.2.1.2.2 Main Game Statuses
-The main game statuses provide players with important information on their status in the game.
-##### 5.2.1.2.2.1 Knight Indicator
-Knight indicator displays how many knights a player has.
-##### 5.2.1.2.2.2 Research Point Indicator
-Research point indicator displays how many research points a player has.
+#### 5.2.1.2 Main Game Scene - comprises the actual gameplay and interactions between players and assets.
+##### 5.2.1.2.1 Main Game Menus - specifies different ways that players can advance in the game during their turns.
+###### 5.2.1.2.1.1 Build Menu - allows players to build a variety of different structures and resources.
+###### 5.2.1.2.1.2 Attack Menu - allows players to attack the zombie horde when it is on other tiles.
+###### 5.2.1.2.1.3 Trade Menu - allows players to interact with each other through trade.
+##### 5.2.1.2.2 Main Game Statuses - provides players with important information on their status in the game.
+##### 5.2.1.2.2.1 Knight Indicator - displays how many knights a player has.
+##### 5.2.1.2.2.2 Research Point Indicator - displays how many research points a player has.
 
-##### 5.2.1.2.3 Main Game Board
-The main game board will show all of the gameplay, and will be interactive during a player's turn.
-###### 5.2.1.2.3.1 Dice
-The dice will have several different sides, and is rolled once per player per turn.
-###### 5.2.1.2.3.2 Tiles
-The game board is made up of different types of tiles, some indicating resources and some indicated that they have been infected by the zombie horde.
-###### 5.2.1.2.3.2.1 Tile Space
-The tile space can hold cities or the zombie horde.
-###### 5.2.1.2.3.2.2 Tile Vertices
-Tile vertices can hold outposts or apothecaries.
-###### 5.2.1.2.3.2.2 Tile Edges
-Tile edges can hold roads.
+##### 5.2.1.2.3 Main Game Board - shows all of the gameplay, and will be interactive during a player's turn.
+###### 5.2.1.2.3.1 Dice - has several different sides, and is rolled once per player per turn.
+###### 5.2.1.2.3.2 Tiles - indicate resources or infection.
+###### 5.2.1.2.3.2.1 Tile Space - holds cities or the zombie horde.
+###### 5.2.1.2.3.2.2 Tile Vertices - holds outposts or apothecaries.
+###### 5.2.1.2.3.2.2 Tile Edges - can hold roads.
 
-#### 5.2.1.2 Zombie Encounter Mini-game Scene
-The zombie encounter mini-game occurs when a player is fighting off the zombie horde.
+#### 5.2.1.2 Zombie Encounter Mini-game Scene - occurs when a player is fighting off the zombie horde.
 
-### 5.2.2 AWS Server
-The AWS server will allow for the multi-player aspect of the game.
+### 5.2.2 AWS Server - allows for the multi-player aspect of the game.
 
 ## 5.3 Functional Requirements by CSC
 Remove this line!! But more details go here about all of the different components outlined in 5.2, and what exactly they'll do. Use "shall" statements.
@@ -63,7 +41,7 @@ Remove this line!! But more details go here about all of the different component
 
 ## 5.4 Performance Requirements by CSC
 ### 5.4.1 Runtime & Speed
-The game's animations shall run at no lower than 20 FPS. Since it is a turn-based game, delays between player interactions shall be no less than ten seconds, and in the case of a delay longer than three seconds there shall be a waiting indicator.
+The game's animations shall run at no lower than 20 FPS. Since it is a turn-based game, delays between player interactions that involve responses to/from the server shall be no less than ten seconds, and in the case of a delay longer than three seconds there shall be a waiting indicator.
 ### 5.4.2 Controls
 All controls shall be responsive to the player, and clearly marked as inactive if they are not meant to be used at certain times within the gameplay.
 ### 5.4.3 Accessibility & Usability

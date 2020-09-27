@@ -5,7 +5,7 @@
 This Software Requirements Specification document details the requirements for "Settlers of K'tah", a multi-player 3D board game that will be created using Unreal Engine. Players will take turns performing strategic actions such as building various types of structures, fighting off the enemy zombie horde, and trading with other players in the game. There will be a title screen where players can select various settings, the main game scene, as well as a mini-game that occurs when there is a battle between a player and the zombie horde. The game will be created using the Unreal Engine blueprint system as well as C++.
 
 ### 5.1.2 Diagram
-Add diagram here
+![alt text](./images/big-picture-diagram.png "Diagram of the main components of Settlers of K'tah.")
 
 ## 5.2 CSCI Component Breakdown
 

@@ -1,0 +1,40 @@
+
+
+Group 6: [2 souls + 2 animajors] *
+   Maddie Louis, Merissa Tan, two animation majors Kaitlyn Behrens, Haley Mech
+      synopsis:   Settlers of K'tah turn-based multiplayer video board game in Unity 3D
+========================================================================================
+Wow, great work on this document!  You have nailed the preliminary schedule,
+and the CSCI breakdown looks near-perfect!  You don't need to put in anything
+that is more than about 5 "dot levels" deep, really.  All that will come out
+in the functional requirements section in 5.3.
+
+Speaking of which, GOOD use of "will" statements.  They are usually formatted
+to be on their own line UNDER the preceding "shall" statement.  They should
+not be a second sentence in the same numbered paragraph, because then they
+would become like a "shall" statement and you'd have to prove that it works
+that way.  Break the line at the end of the "shall" statement, and put the
+"will" statement underneath with no number:
+
+5.3.1.1.2 The Game Settings menu shall allow the player to change the application settings
+          Application settings include, but are not limited to:
+            * Sound effects volume
+            * Background music volume
+
+Section 5.2.2 and 5.3.2 for the AWS server could use a little more "meat".
+What role with the server play?  What will be stored there, or what data
+will be handled?  If it is integral to the game play, in what way do the
+other parts interface with it?   What data structures are passed around?
+
+Put a little more into that part of this and it will be a STELLAR effort!
+during the rest of the semester, re-visit the doc and add stuff in as it
+shows up during development; treat this as a "living document"!
+
+
+GREAT WORK!!
+
+
+Evaluation score:
+
+    9.5% out of 10% for this deliverable:  A
+

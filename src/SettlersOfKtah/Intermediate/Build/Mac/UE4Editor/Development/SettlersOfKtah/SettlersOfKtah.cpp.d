@@ -1,4 +1,4 @@
-/Users/maddielouis/Documents/School/Fall2020/401/Settlers-Of-Ktah/src/SettlersOfKtah/Intermediate/Build/Mac/UE4Editor/Development/SettlersOfKtah/SettlersOfKtah.cpp.o: \
+/Users/merissa/Desktop/Settlers-Of-Ktah/src/SettlersOfKtah/Intermediate/Build/Mac/UE4Editor/Development/SettlersOfKtah/SettlersOfKtah.cpp.o: \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/TextureLayout.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/TextureLayout3d.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine/SoundWave.generated.h \
@@ -1257,7 +1257,7 @@
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Core/Public/Containers/ContainersFwd.h \
   /Users/Shared/Epic\ Games/UE_4.25/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
-  /Users/maddielouis/Documents/School/Fall2020/401/Settlers-Of-Ktah/src/SettlersOfKtah/Intermediate/Build/Mac/SettlersOfKtahEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
+  /Users/merissa/Desktop/Settlers-Of-Ktah/src/SettlersOfKtah/Intermediate/Build/Mac/SettlersOfKtahEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include/stddef.h \
@@ -2646,6 +2646,6 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector \
-  /Users/maddielouis/Documents/School/Fall2020/401/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtah/SettlersOfKtah.cpp \
-  /Users/maddielouis/Documents/School/Fall2020/401/Settlers-Of-Ktah/src/SettlersOfKtah/Intermediate/Build/Mac/UE4Editor/Development/SettlersOfKtah/Definitions.SettlersOfKtah.h \
-  /Users/maddielouis/Documents/School/Fall2020/401/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtah/SettlersOfKtah.h
+  /Users/merissa/Desktop/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtah/SettlersOfKtah.cpp \
+  /Users/merissa/Desktop/Settlers-Of-Ktah/src/SettlersOfKtah/Intermediate/Build/Mac/UE4Editor/Development/SettlersOfKtah/Definitions.SettlersOfKtah.h \
+  /Users/merissa/Desktop/Settlers-Of-Ktah/src/SettlersOfKtah/Source/SettlersOfKtah/SettlersOfKtah.h

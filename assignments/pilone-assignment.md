@@ -13,7 +13,8 @@ The two major concerns of any software project are how much the project will cos
 
 In the Agile method for software development, what are the four main phases that occur in each and every iteration? Do you feel that any of them could be done at the start of the project and not be repeated in every iteration? Do you feel that would save time overall on the project? Justify your answers with a brief explanation.
 
-** TODO: Maddie **
+The four main phases are requirements, design, code, and test. Requirements includes outlining and understanding the requirements for the software you're building, design includes designing how the product (or that portion of the product) will actually be built, code is coding the project, and test involves testing it to make sure it's foolproof and tricky edge cases are accounted for.
+I believe all four stages are necessary, to an extent, for each iteration. However, I believe having a longer requirements and design stage at the very beginning of the project can lead to shorter requirements and design stages throughout. While the project requirements and design might change slightly throughout the project, overall componenets will most likely stay the same, so getting that out of the way ahead of time can save a lot of overhead throughout iterations.
 
 ### Problem 3
 
@@ -31,8 +32,10 @@ Write one-sentence answers to the following questions:
 - What are four things that user stories SHOULD do?
 - What are three things that user stories SHOULD NOT do?
 
-** TODO: Maddie **
-
+A user story is a realistic situation that helps define the need for your project and the basic requirements for what you're trying to build.  
+Blueskying is being open to all sorts of ideas when starting out on your project, even if they seem off-base or outrageous, so long as you still keep in mind the core requirements that your project will need.  
+User stories should (1) describe something that your customer needs the software to do for them, (2) be written in clear and coherent language, (3) be driven by the customer themselves, and (4) be succinct.  
+User stories should not (1) be too long, (2) use technical jargon, or (3) describe specific technological implementation details.  
 
 ### Problem 5
 

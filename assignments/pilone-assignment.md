@@ -55,14 +55,14 @@ I agree with this statement as well because I believe that whenever there is a d
 ### Problem 6
 
 Fill in the blanks in the statements below, using the following things [you can use each thing for more than one statement]: Blueskying; Role playing; Observation; User story; Estimate; Planning poker.
-
-You can dress me up as a use case for a formal occasion: User story
-The more of me there are, the clearer things become: User story
-I help you capture EVERYTHING: Planning poker
-I help you get more from the customer: Role playing
-In court, I'd be admissible as firsthand evidence: Observation
-Some people say I'm arrogant, but really I'm just about confidence: Estimate
-Everyone's involved when it comes to me: Blueskying
+  
+You can dress me up as a use case for a formal occasion: User story.  
+The more of me there are, the clearer things become: User story.  
+I help you capture EVERYTHING: Planning poker.  
+I help you get more from the customer: Role playing.  
+In court, I'd be admissible as firsthand evidence: Observation.  
+Some people say I'm arrogant, but really I'm just about confidence: Estimate.  
+Everyone's involved when it comes to me: Blueskying.  
 NOTE: when you have finished, check your answers with the result in your text on page 62. Do you agree with the book answers? If you disagree with any of them, justify your preferred answer.
 
 The only answer of mine that differed from the book answers was for "I help you capture EVERYTHING." I imagined "everything" as being all of the varying ideas from the team for time estimates on different portions of the project, but since the book answers were "bluesky" and "observations," it seems like they interpreted "everything" as being general ideas for the product / product requirements. I don't necessarily have a preferred answer, since I think the answer really depends on one's interpretation of "everything."  
@@ -89,5 +89,4 @@ I think branching is especially useful when you are working on a large software 
 
 Have you used a build tool in your development? Which tool have you used? What are its good points? What are it's bad points?
 
-** TODO: Maddie **
-
+I used build tools at my past internships at Google. They used .BUILD files that defined all of the requirements for that directory of code. This was nice because it was easy to see what sections of code were relying on other sections of code. One bad point was error messages for cyclical dependencies. When adding to a build file, I would sometimes get a cyclical dependency error, but it was difficult to interpret where the cycle existed. After I'd done it a few times, the error message was much easier to read, but the first times, it wasn't very intuitive and left me feeling completely lost.

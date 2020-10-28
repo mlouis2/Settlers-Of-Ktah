@@ -56,17 +56,16 @@ I agree with this statement as well because I believe that whenever there is a d
 
 Fill in the blanks in the statements below, using the following things [you can use each thing for more than one statement]: Blueskying; Role playing; Observation; User story; Estimate; Planning poker.
 
-You can dress me up as a use case for a formal occasion: ___________________________________
-The more of me there are, the clearer things become: ___________________________________
-I help you capture EVERYTHING: ___________________________________
-I help you get more from the customer: ___________________________________
-In court, I'd be admissible as firsthand evidence: ___________________________________
-Some people say I'm arrogant, but really I'm just about confidence: ___________________________________
-Everyone's involved when it comes to me: ___________________________________
+You can dress me up as a use case for a formal occasion: User story
+The more of me there are, the clearer things become: User story
+I help you capture EVERYTHING: Planning poker
+I help you get more from the customer: Role playing
+In court, I'd be admissible as firsthand evidence: Observation
+Some people say I'm arrogant, but really I'm just about confidence: Estimate
+Everyone's involved when it comes to me: Blueskying
 NOTE: when you have finished, check your answers with the result in your text on page 62. Do you agree with the book answers? If you disagree with any of them, justify your preferred answer.
 
-** TODO: Maddie **
-
+The only answer of mine that differed from the book answers was for "I help you capture EVERYTHING." I imagined "everything" as being all of the varying ideas from the team for time estimates on different portions of the project, but since the book answers were "bluesky" and "observations," it seems like they interpreted "everything" as being general ideas for the product / product requirements. I don't necessarily have a preferred answer, since I think the answer really depends on one's interpretation of "everything."  
 
 ### Problem 7
 
@@ -78,8 +77,7 @@ A better than best-case estimate is an estimate made on the amount of time a pro
 
 In your opinion, when would be the best time to tell your customer that you will NOT be able to meet her delivery schedule? Why do you feel that is the best time? Do you think that would be a difficult conversation?
 
-** TODO: Maddie **
-
+In my opinion, the best time to tell the customer you won't meet the delivery schedule is as soon as you are confident in that fact. If you tell them earlier on, it's easier to reprioritize your goals and plan accordingly so that work can resume as quickly as possible. If you wait too long to tell them, they will be more disappointed, and possibly even angry if they realize that you knew this earlier on and kept it to yourself. I believe it would be a difficult conversation if it is particularly important to the customer, but necessary in order to be realistic about software development.
 
 ### Problem 9
 

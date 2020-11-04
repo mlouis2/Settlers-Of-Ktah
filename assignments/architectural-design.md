@@ -45,11 +45,11 @@ Human Interfaces
 
 ## 6.2.3 Architectural Design Diagrams  
 High-Level Client, Server, & User Interactions:  
-![Diagram 1 representing client/server/user interactions](/images/diagram1.png)  
+![Diagram 1 representing client/server/user interactions](./images/diagram1.png)  
 
 Ownership, References, and Interactions Between Hex Grid Components:  
-![Diagram 2 representing hex grid map relationships](/images/diagram2.png)  
+![Diagram 2 representing hex grid map relationships](./images/diagram2.png)  
 Note: In this diagram, the dotted lines indicate that the components contain references to one another, but will not express ownership/a hierarchal relationship over those references.  
-
+  
 Game Flow, Player, and Hex Grid Interactions:  
-![Diagram 3 representing game flow/hex grid/player interactions](/images/diagram3.png)  
+![Diagram 3 representing game flow/hex grid/player interactions](./images/diagram3.png)  

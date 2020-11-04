@@ -1,12 +1,20 @@
 # 6.1 Introduction  
-TODO: Maddie  
+This document outlines the overall architecture of Settlers of K'tah, a multiplayer video board game that is being created in Unreal Engine. Specifically, we outline the various interfaces available at each level of the project as well as the software components and their interactions with one another.
 
 ## 6.1.1 System Objectives  
 
 The objective of this application is to provide fun and exciting turn-based gameplay to users of all experience levels. The application integrates new and unexpected twists into the gameplays of Settlers of Catan and K'tah so that fans of these games will recognize certain familiar elements but still find the game to be exciting. The multi-player element of the application allows users to socially engage with other players by playing the game together. In addition, the clean and eye-catching graphic elements of the application allows users to experience high-quality gameplay. The various paths to victory in the game also provides freedom for the users to be creative and employ different gameplay strategies.
 
 ## 6.1.2 Hardware, Software, and Human Interfaces  
-TODO: Maddie  
+Hardware Interfaces  
+- Wireless networking will be the primary connection for the server.  
+
+Software Interfaces  
+- Although it is a stretch goal for the semester, we are planning on using an AWS server in order to support local and/or online multiplayer and lobby creation. Unreal Engine internally handles many of the specific software interactions between the game and the server, so we will set up an EC2 instance and then connect it through Unreal's multiplayer configuration settings.  
+
+Human Interfaces  
+- Mouse - The user will use the mouse in order to click on game pieces and UI elements on the screen throughout the entire game.  
+- Keyboard - The user will use the keyboard primarily in the zombie attack minigame, since that will require directional movement issued through keypresses.  
 
 # 6.2 Architectural Design  
 
@@ -24,7 +32,10 @@ TODO: Maddie
     - Victory progress
 
 ## 6.2.1 Major Software Components  
-TODO: Maddie  
+- Gameflow Control / Game Logic - The gameflow control component tracks knowledge that is relevant to the game as a whole (aka information that is not player-specific), such as which player's turn it is, which phase of the game the players are in, and what needs to happen next in order for the game to progress.
+- Player - The player component keeps track of information that is specific to each player, such as the player's buliding locations on the hex grid map and current number of resources.
+- Hex grid - The hex grid component holds knowledge relevant to all components of the grid map, such as castle and outpost locations, resources, and more.
+- Map components (vertex, edge, tile) - Individual map components (namely vertices, edges, and tiles) track information that is relevant to them, including whether or not there is a building placed on them, which player owns them (if any), and which other map components are adjacent to them.
 
 ## 6.2.2 Major Software Interactions  
 

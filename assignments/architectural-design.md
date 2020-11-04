@@ -44,4 +44,12 @@ Human Interfaces
 - The gameplay logic triggers changes in gameflow control; for example, the gameplay logic determines the victory progress of each player, and if a player has sufficient means to claim victory, this information is passed to gameflow control through a trigger in the GameMode to advance the gameplay to the end phase.
 
 ## 6.2.3 Architectural Design Diagrams  
-TODO: Maddie  
+High-Level Client, Server, & User Interactions:  
+![Diagram 1 representing client/server/user interactions](/images/diagram1.png)  
+
+Ownership, References, and Interactions Between Hex Grid Components:  
+![Diagram 2 representing hex grid map relationships](/images/diagram2.png)  
+Note: In this diagram, the dotted lines indicate that the components contain references to one another, but will not express ownership/a hierarchal relationship over those references.  
+
+Game Flow, Player, and Hex Grid Interactions:  
+![Diagram 3 representing game flow/hex grid/player interactions](/images/diagram3.png)  

@@ -1,0 +1,20 @@
+
+
+Group 6: [2 souls + 2 animajors] *
+   Maddie Louis, Merissa Tan, two animation majors Kaitlyn Behrens, Haley Mech
+      synopsis:   Settlers of K'tah turn-based multiplayer video board game in Unity 3D
+========================================================================================
+Very nice job on this architectural document.  The descriptions are clear
+and the diagrams are excellent to convey the operational connections of the
+various parts.  Nice annotations to show the references!
+
+I like the way you "tell the story" of the operations and interactions in
+secion 6.2.2 ~ that's very effective!
+
+GREAT WORK!!
+
+
+Evaluation score:
+
+    10% out of 10% for this deliverable:  A-plus
+

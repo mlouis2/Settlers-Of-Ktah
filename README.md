@@ -7,7 +7,7 @@ document here: [https://bit.ly/lmu-sok](https://bit.ly/lmu-sok).
 
 ## Team
 Programming: Maddie Louis & Merissa Tan  
-Animation: Kaitlyn Behrehs & Haley Mech  
+Animation: Kaitlyn Behrens & Haley Mech  
 Advisors: Dr. Andrew Forney & Josh Morgan  
 Music: Owen Mech  
 

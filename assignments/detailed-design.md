@@ -1,4 +1,4 @@
-6.3.      CSC and CSU Descriptions  
+# 6.3.      CSC and CSU Descriptions  
 ### 5.2.1 In-Game Components
 
 #### 5.2.1.1 Title Screen - has four components: a character customization option, a general game settings option, a rule book option and the join game button.
@@ -21,7 +21,7 @@
 
 &nbsp;&nbsp;5.2.1.2.2 Main Game Statuses - provides players with important information on their status in the game.
 
-&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2.2.1 Player Panel
+&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2.2.1 Player Panel  
 &nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2.2.2 Resource Panel  
 &nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2.2.2 Game Log  
 
@@ -32,14 +32,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2.3.2.1 Tile Space  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2.3.2.2 Tile Vertices  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2.1.2.3.2.2 Tile Edges  
-6.3.1     Class Descriptions  
+# 6.3.1     Class Descriptions  
 TODO: Merissa  
-6.3.1.1   Detailed Class Description 1  
-6.3.1.n   Detailed Class Description n  
+## 6.3.1.1   Detailed Class Description 1  
+## 6.3.1.n   Detailed Class Description n  
 TODO: Merissa  
-6.3.2     Detailed Interface Descriptions  
+# 6.3.2     Detailed Interface Descriptions  
 TODO: Maddie  
-6.3.3     Detailed Data Structure Descriptions  
+# 6.3.3     Detailed Data Structure Descriptions  
 TODO: Merissa  
-6.3.4     Detailed Design Diagrams  
+# 6.3.4     Detailed Design Diagrams  
 TODO: Maddie  

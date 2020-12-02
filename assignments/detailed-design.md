@@ -136,4 +136,9 @@ TODO: Maddie
 * Boolean to indicate whether the player is still in the game.
 
 # 6.3.4  Detailed Design Diagrams  
-TODO: Maddie  
+Game State Diagram  
+![Game State Diagram](./images/game-state-diagram.png)
+Hex Grid Relational Diagram  
+![Hex Grid Relational Diagram](./images/diagram2.png)
+Logic Interaction Diagram   
+![Logic Interaction Diagram](./images/diagram3.png)

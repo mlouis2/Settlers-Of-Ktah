@@ -99,7 +99,25 @@ A class that holds all player-specific information that are important to gamepla
     * A boolean that indicates whether the player is out of the game (if they have lost both their castles).
 
 # 6.3.2  Detailed Interface Descriptions  
-TODO: Maddie  
+## 6.3.2.1 Title Screen  
+The Title Screen transmits information to the Main Game scene through the Game Instance, which retains information between scenes. This information is the amount of players and their names, which was selected by the user in the Set Players Panel.  
+## 6.3.2.2  Main Game Scene  
+### 6.3.2.2.1  Action Panel  
+The Action Panel is comprised of four buttons that interact with various other components. See the following four sections for information on each button contained in the Action Panel.
+### 6.3.2.2.1.1  Build Button
+The Build Button interacts with the Build UI panel, since it opens up this panel. See Section 6.3.2.2.2 for more details on this.
+### 6.3.2.2.1.2  Trade Button
+The Trade Button interacts with the Game Mode since it involves multiple players. It must trigger the Game Mode to move through each player's turn so that they can accept or deny the trade offer, and then return to the original player so that they can make a decision regarding the trade.  
+### 6.3.2.2.1.3  Attack Button
+The Attack Button interacts with the Zombie Handler, which determines whether or not a selected tile is able to be attacked by the current player. Additionally, it interacts with the Hex Tile, since a tile may be infected or uninfected depending on the outcome of the battle.  
+### 6.3.2.2.1.4  End Turn Button
+The End Turn Button, when selected, interacts with the Game Mode to indicate that the next player's turn should be started.  
+### 6.3.2.2.2  Build Panel  
+The Build Panel interacts with the Game Mode to set the game's phase according to what the player would like to build. Additionally, it interacts with both Hex Grid and Hex Tile, since those handle determining whether or not a build location is valid and the actual placement of the building.  
+### 6.3.2.2.3  Game Status Panels  
+All of the Game Status Panels are updated whenever the variables that they correspond to are updated. Therefore, they interact with a variety of different components. For example, in the Player Panel, the Knight Amount Indicator is updated when the Build UI Panel's Knight button has been triggered by a player.
+### 6.3.2.2.4  Game Board  
+The Game Board's pieces interact with each other throughout the game. The Hex Grid talks to its Vertices, Edges, and Tiles, and the Vertices, Edges, and Tiles talk to the Hex Grid as necessary. When something will impact a specific tile, the Hex Tile Blueprint handles it, and when something affects multiple tiles, the Hex Grid Blueprint handles it and allocates the work to the affected tiles. See the Hex Grid Relational Diagram at the bottom of this document for a visual representation.  
 
 # 6.3.3  Detailed Data Structure Descriptions  
 ## 6.3.3.1  Title Screen  
@@ -137,8 +155,8 @@ TODO: Maddie
 
 # 6.3.4  Detailed Design Diagrams  
 Game State Diagram  
-![Game State Diagram](./images/game-state-diagram.png)
+![Game State Diagram](./images/game-state-diagram.png)  
 Hex Grid Relational Diagram  
-![Hex Grid Relational Diagram](./images/diagram2.png)
+![Hex Grid Relational Diagram](./images/diagram2.png)  
 Logic Interaction Diagram   
-![Logic Interaction Diagram](./images/diagram3.png)
+![Logic Interaction Diagram](./images/diagram3.png)  

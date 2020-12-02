@@ -77,7 +77,7 @@ Interactive game board that displays gameplay.
     * Tile Vertices -- spaces that allow for outpost placement
     * Tile Edges -- spaces that allow for road placement
 
-### 6.3.1.3  Internal Player Information  
+## 6.3.1.3  Internal Player Information  
 A class that holds all player-specific information that are important to gameplay.
 * Player name
     * A text field that holds the player's display name.
@@ -128,7 +128,7 @@ TODO: Maddie
     * Array to hold all adjacent hexagon tiles.
     * Array to hold all adjacent hexagon vertices.
 
-### 6.3.3.3  Internal Player Information  
+## 6.3.3.3  Internal Player Information  
 * String to hold the player's display name.
 * Arrays to hold the player-owned tiles, vertices and edges.
 * Dictionary that maps each resource type to the amount of that resource that the player currently owns.

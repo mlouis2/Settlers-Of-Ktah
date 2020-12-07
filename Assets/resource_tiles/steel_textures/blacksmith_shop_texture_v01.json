@@ -1,0 +1,124 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "anvil": {
+            "shader": "Main shader"
+        },
+        "anvil_stand": {
+            "shader": "Main shader"
+        },
+        "barrels": {
+            "shader": "Main shader"
+        },
+        "bottles": {
+            "shader": "Main shader"
+        },
+        "bowls": {
+            "shader": "Main shader"
+        },
+        "buckets": {
+            "shader": "Main shader"
+        },
+        "building_structure": {
+            "shader": "Main shader"
+        },
+        "butterflies": {
+            "shader": "Main shader"
+        },
+        "butterfly_handles": {
+            "shader": "Main shader"
+        },
+        "club_spikes": {
+            "shader": "Main shader"
+        },
+        "cups": {
+            "shader": "Main shader"
+        },
+        "desk_shelf": {
+            "shader": "Main shader"
+        },
+        "desk_tubes": {
+            "shader": "Main shader"
+        },
+        "fireplace": {
+            "shader": "Main shader"
+        },
+        "firewood": {
+            "shader": "Main shader"
+        },
+        "gribby_grabbies": {
+            "shader": "Main shader"
+        },
+        "hammers": {
+            "shader": "Main shader"
+        },
+        "hawk_beaks": {
+            "shader": "Main shader"
+        },
+        "lambert6": {
+            "shader": "Main shader"
+        },
+        "lamps": {
+            "shader": "Main shader"
+        },
+        "mallets": {
+            "shader": "Main shader"
+        },
+        "metal_ingots": {
+            "shader": "Main shader"
+        },
+        "racks": {
+            "shader": "Main shader"
+        },
+        "rods_unused": {
+            "shader": "Main shader"
+        },
+        "soot": {
+            "shader": "Main shader"
+        },
+        "spiked_club_handles": {
+            "shader": "Main shader"
+        },
+        "stingray_handles": {
+            "shader": "Main shader"
+        },
+        "stingrays": {
+            "shader": "Main shader"
+        },
+        "wood_holder": {
+            "shader": "Main shader"
+        }
+    }
+}

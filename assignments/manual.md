@@ -71,19 +71,49 @@ This image shows what the game should look like when the Placement Phase has bee
 ### Turn Phase  
    
 <img src="./images/user-manual/game-steps/3.png" width="60%">  
-The majority of the game takes place in the Turn Phase. Click the "Toggle Bounty" button on the left in order to turn the bounty numbers on each tile on and off. Refer to the Game Log in the bottom-left hand corner of the screen for game updates and instructions.  
-Players can perform actions on their turn using the Action Panel on the right-hand side of the screen. Build shows players options for different items they can create with their resources (outposts, roads, knights). Trade allows the player to trade with the Bank by turning in 6 of any resource for 1 of any other resource, or to propose a trade deal with other players. The "Attack" button enables when an Infected tile is adjacent to the current player's outpost--it allows the player to fight off the Zombie horde using the Knights that they have built. Lastly, "End Turn" progresses the game to the next player's turn.  
+The majority of the game takes place in the Turn Phase. Click the "Toggle Bounty" button on the left in order to turn the bounty numbers on each tile on and off. Refer to the Game Log in the bottom-left hand corner of the screen for game updates and instructions. Players can also perform actions on their turn using the Action Panel on the right-hand side of the screen. The different actions are explained in detail below.
+
+#### Building
+
+<img src="./images/user-manual/game-steps/build-panel.png" width="60%">  
+The Build Panel shows players the options for different items they can create with their resources (outposts, roads, knights). The number of resources required for each build item is listed, and if the player does not have sufficient resources to build a certain build item, that item will be disabled.
+
+#### Trading
+
+<img src="./images/user-manual/game-steps/trade-panel.png" width="60%">  
+The Trade Panel has two different trade options:  
+
+* Bank Trade
+<img src="./images/user-manual/game-steps/bank-trade.png" width="60%">  
+Players can trade with the Bank by turning in 6 pieces of any resource for 1 piece of any other resource. The panel on the top allows players to choose the resources they want to trade away, and the bottom panel allows players to choose the resources they want to receive. If the exchange rate for the resources is correct, the Trade button is enabled. If the player changes their mind, they can return to the Trade Panel by clicking Cancel.
+
+* Player Trade
+<img src="./images/user-manual/game-steps/trade-1.png" width="60%">  
+Players can also initiate a trade with other players. They can first propose an offer by selecting the number of resources they want to receive and are willing to give away. Once the player makes the trade offer, the remaining players are required to choose their response to the offer:  
+<img src="./images/user-manual/game-steps/trade-2.png" width="60%">  
+The player is free to accept or decline the trade offer. However, if the player does not have sufficient resources to give away, the Accept Trade button is automatically disabled.  
+<img src="./images/user-manual/game-steps/trade-3.png" width="60%">  
+Once all players have responded to the trade offer, the player who initiated the trade is able to review the responses, and decide who they want to trade with (if any). If the player changes their mind, they can still return to the Trade Panel by clicking Cancel Trade Offer.
+
+#### Attacking  
+The Attack button enables when an Infected tile is adjacent to the current player's outpost--it allows the player to fight off the Zombie horde using the Knights that they have built. 
+
+#### End Turn
+The End Turn button is self-explanatory; it simply ends the current player's turn and advances the game to the next player's turn.  
   
 ### Zombie Spread Phase
   
-<img src="./images/user-manual/game-steps/5.png" width="60%">  
-One random encounter worth mentioning is the Zombie Spread phase. This is possible when the Horde has infected at least 2 tiles (indicated by the number in the top-right corner of the screen), and has a 1/5 chance of occuring each turn. The current player must select one of the highlighted tiles to move to a location of their choice on the map. Then, they must select where they would like it to move to, which will also be indicated by highlights.  
-  
+<img src="./images/user-manual/game-steps/5.png" width="60%">
+
+One encounter worth mentioning is the Zombie Spread phase. There are two variations of this:  
+1. At the end of each round (after every player's turn), there is a 50% chance that the Zombie Horde will infect one additional tile that is adjacent to any existing zombie-infected tile. If the newly-infected tile is owned by a player (signified by the player's castle on that tile), a battle occurs and the player may lose their castle.
+
+2. This is possible when the Horde has infected at least 2 tiles (indicated by the number in the top-right corner of the screen). This occurs when the Zombie is selected on the resource spinner, so this has a 20% chance of occuring on each player's turn. During this phase, the current player can move any existing zombie-infected tile to another tile on the map. The current player must first select one of the highlighted tiles to move to a location of their choice, then they must select where they would like it to move to, which will also be indicated by tile highlights.  
+
 ### Game Over  
-<img src="./images/user-manual/game-steps/6.png" width="60%">   
-There are two possible ways for the game to end. Firstly, a Lone Survivor Victory, which means that all players except one have lost both of their castles to the Zombie Horde. This occurs through random Zombie spread each round. The other possible victory is a Military Victory, which means that the winning player has successfully fought off the Zombie Horde with their Knights 10 times.  
+<img src="./images/user-manual/game-steps/6.png" width="60%">  
+There are two possible ways for the game to end. Firstly, a Lone Survivor Victory, which means that all players except one have lost both of their castles to the Zombie Horde. This may occur through the random Zombie spread each round. The other possible victory is a Military Victory, which means that the winning player has successfully fought off the Zombie Horde with their Knights for a total of 10 times.  
 When this modal view appears, the player can click "Return to Title Screen" in order to reset the application.  
-  
 
 ## Troubleshooting Common Problems
 

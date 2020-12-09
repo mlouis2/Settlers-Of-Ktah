@@ -63,7 +63,7 @@ When all players are satisifed with the set-up, click "Start Game" to begin.
 ### Placement Phase  
   
 <img src="./images/user-manual/game-steps/2.png" width="60%">  
-The game begins with the Placement Phase. Follow the instructions in the Game Log (bottom-left hand of the screen) in order to proceed. Each player will place two castles and two outposts following snake order (player 1, player 2, player 1). Players should place their buildings strategically in order to gain as many resources as possible, while also avoiding the Zombie Hub tile (see back middle of image).
+The game begins with the Placement Phase. Follow the instructions in the Game Log (bottom-left hand of the screen) in order to proceed. Each player will place two castles and two outposts following snake order (player 1, player 2, player 1). Players should place their buildings strategically in order to gain as many resources as possible, while also avoiding the Zombie Hub tile (see back middle of image).  
   
 <img src="./images/user-manual/game-steps/3.png" width="60%">  
 This image shows what the game should look like when the Placement Phase has been completed. Note that each player has two castles and two outposts.

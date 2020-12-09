@@ -52,11 +52,38 @@ To uninstall Settlers of K'tah, simply quit the Unreal Engine application, navig
 
 For reference, here is a quick external guide on how to uninstall applications on [Windows](https://www.cnet.com/how-to/how-to-uninstall-an-app-or-program-in-windows-10/) and [Mac](https://support.apple.com/guide/mac-help/install-and-uninstall-other-apps-mh35835/mac).
 
-
-## How to use every feature and function of the software. This might be in several sections of the manual, with the simplest stuff first in its own section, and the more complicated (and advanced) functions later.
-- Maddie
-## Screen shots of the various windows to lead the user through the installation process and usually also the use of the software
-- Maddie
+## Playing Settlers of K'tah  
+  
+### Title Screen  
+  
+<img src="./images/user-manual/game-steps/1.png" width="60%">  
+The title screen is where you can set up the game for 2-4 players. Select "Add Player" or "Remove Player" to adjust the player amount, click the the text boxes in the middle to change players' names, and select the dropdown next to the text box to select one of two castle styles per player.  
+When all players are satisifed with the set-up, click "Start Game" to begin.  
+  
+### Placement Phase  
+  
+<img src="./images/user-manual/game-steps/2.png" width="60%">  
+The game begins with the Placement Phase. Follow the instructions in the Game Log (bottom-left hand of the screen) in order to proceed. Each player will place two castles and two outposts following snake order (player 1, player 2, player 1). Players should place their buildings strategically in order to gain as many resources as possible, while also avoiding the Zombie Hub tile (see back middle of image).
+  
+<img src="./images/user-manual/game-steps/3.png" width="60%">  
+This image shows what the game should look like when the Placement Phase has been completed. Note that each player has two castles and two outposts.
+  
+### Turn Phase  
+   
+<img src="./images/user-manual/game-steps/3.png" width="60%">  
+The majority of the game takes place in the Turn Phase. Click the "Toggle Bounty" button on the left in order to turn the bounty numbers on each tile on and off. Refer to the Game Log in the bottom-left hand corner of the screen for game updates and instructions.  
+Players can perform actions on their turn using the Action Panel on the right-hand side of the screen. Build shows players options for different items they can create with their resources (outposts, roads, knights). Trade allows the player to trade with the Bank by turning in 6 of any resource for 1 of any other resource, or to propose a trade deal with other players. The "Attack" button enables when an Infected tile is adjacent to the current player's outpost--it allows the player to fight off the Zombie horde using the Knights that they have built. Lastly, "End Turn" progresses the game to the next player's turn.  
+  
+### Zombie Spread Phase
+  
+<img src="./images/user-manual/game-steps/3.png" width="60%">  
+One random encounter worth mentioning is the Zombie Spread phase. This is possible when the Horde has infected at least 2 tiles (indicated by the number in the top-right corner of the screen), and has a 1/5 chance of occuring each turn. The current player must select one of the highlighted tiles to move to a location of their choice on the map. Then, they must select where they would like it to move to, which will also be indicated by highlights.  
+  
+### Game Over  
+<img src="./images/user-manual/game-steps/3.png" width="60%">   
+There are two possible ways for the game to end. Firstly, a Lone Survivor Victory, which means that all players except one have lost both of their castles to the Zombie Horde. This occurs through random Zombie spread each round. The other possible victory is a Military Victory, which means that the winning player has successfully fought off the Zombie Horde with their Knights 10 times.  
+When this modal view appears, the player can click "Return to Title Screen" in order to reset the application.  
+  
 
 ## Troubleshooting Common Problems
 

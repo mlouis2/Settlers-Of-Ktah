@@ -76,11 +76,11 @@ Players can perform actions on their turn using the Action Panel on the right-ha
   
 ### Zombie Spread Phase
   
-<img src="./images/user-manual/game-steps/3.png" width="60%">  
+<img src="./images/user-manual/game-steps/5.png" width="60%">  
 One random encounter worth mentioning is the Zombie Spread phase. This is possible when the Horde has infected at least 2 tiles (indicated by the number in the top-right corner of the screen), and has a 1/5 chance of occuring each turn. The current player must select one of the highlighted tiles to move to a location of their choice on the map. Then, they must select where they would like it to move to, which will also be indicated by highlights.  
   
 ### Game Over  
-<img src="./images/user-manual/game-steps/3.png" width="60%">   
+<img src="./images/user-manual/game-steps/6.png" width="60%">   
 There are two possible ways for the game to end. Firstly, a Lone Survivor Victory, which means that all players except one have lost both of their castles to the Zombie Horde. This occurs through random Zombie spread each round. The other possible victory is a Military Victory, which means that the winning player has successfully fought off the Zombie Horde with their Knights 10 times.  
 When this modal view appears, the player can click "Return to Title Screen" in order to reset the application.  
   

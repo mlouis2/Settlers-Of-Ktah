@@ -1,0 +1,24 @@
+Components needed for simulation:
+- Player
+    - Resources
+        - Amounts
+        - Bank trade for lowest resource when > ~20 of one resource
+    - Victory Path Points
+        - Defense Points
+        - Research Points
+    - Num knights
+        - Attack when horde distance is low and there's a likelihood of winning
+- Board
+    - Buildings
+        - Each building has player owner
+        - Outposts / Apothecaries
+            - Collection amounts
+            - When built, increases total collection amounts
+        - Castles
+            - Horde distance
+        - Roads / Barricades
+            - Barricade lowers likelihood of zombie attack upon spread
+- Horde
+    - Size
+        - As increases, horde distance for player castles has chance of decreasing
+        - Spread each round

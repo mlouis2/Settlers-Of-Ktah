@@ -26,9 +26,9 @@ Components needed for simulation:
         - Barricades (Maddie)
             - Barricade lowers likelihood of zombie attack upon spread
 - Horde class (Maddie)
-    - Size
-        - As increases, horde distance for player castles has chance of decreasing
-        - Spread each round
+    ~~- Size~~
+        ~~- As increases, horde distance for player castles has chance of decreasing~~
+        ~~- Spread each round~~
     - Player spread with spinner roll
     - Player can attack when horde distance for a castle is < 2
 - General simulation (Both)

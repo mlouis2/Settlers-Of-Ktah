@@ -1,3 +1,6 @@
+Questions/Notes:
+- Should player trade be a thing? Or just bank trade?
+
 Components needed for simulation:
 - Player
     - Resources

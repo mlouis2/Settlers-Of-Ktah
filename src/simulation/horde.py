@@ -16,9 +16,9 @@ class Horde:
                 # 50% chance of getting closer to each castle that the player has
                 coin_flip = random.randint(0, 1)
                 if coin_flip == 0:
-                    horde_distance = player.castle_horde_distance[castle_index]
+                    horde_distance = player.castles[castle_index].horde_distance
                     if horde_distance > 1:
-                        player.castle_horde_distance[castle_index] = horde_distance - 1
+                        player.castles[castle_index].horde_distance = horde_distance - 1
                     else:
                         self.battle(player)
 

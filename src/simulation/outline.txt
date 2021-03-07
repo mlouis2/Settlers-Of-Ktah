@@ -22,12 +22,13 @@ Components needed for simulation:
             - Don't do anything except allow you to build more outposts
         - Barricades (Maddie)
             - Barricade lowers likelihood of zombie attack upon spread
+            EDIT: Changed to lowering likelihood of bringing zombies closer to player
 - Horde class (Maddie)
-    ~~- Size~~
-        ~~- As increases, horde distance for player castles has chance of decreasing~~
-        ~~- Spread each round~~
+    - Size
+        - As increases, horde distance for player castles has chance of decreasing
+        - Spread each round
     - Player spread with spinner roll
-    - Player can attack when horde distance for a castle is < 2
+    - Player can attack when horde distance for a castle is <= 2
 - General simulation (Both)
     - Extra file to run sim.py multiple times and export to CVS/TXT file
     - Parts of a turn:

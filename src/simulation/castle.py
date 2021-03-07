@@ -6,3 +6,9 @@ class Castle:
         self.owner = player_index
         self.infected = False
         self.horde_distance = random.randint(1, MAX_HORDE_DISTANCE)
+    def infect(self):
+        self.infected = True
+        self.horde_distance = 0
+    def uninfect(self):
+        self.infected = False
+        self.horde_distance = 1

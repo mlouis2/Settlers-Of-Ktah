@@ -15,3 +15,16 @@ def check_for_victory(players):
         if player.points[RESEARCH_KEY] >= POINTS_TO_RESEARCH_VICTORY:
             return (i, RESEARCH_KEY)
     return (-1, None)
+
+def end_game_output(winner, victory_type, players, num_rounds):
+    victor = players[winner]
+    output = """
+        Number of rounds taken for game to end: {}
+        The winner is: 
+        {}
+    """.format(num_rounds, victor)
+    print(output)
+    print("The other players:")
+    for player in players:
+        if player.index != winner:
+            print(str(player))

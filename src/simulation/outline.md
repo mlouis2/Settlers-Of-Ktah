@@ -4,7 +4,7 @@ Questions/Notes:
 Components needed for simulation:
 - Player
     - Resources
-        - Bank trade for lowest resource when > ~20 of one resource (Merissa)
+        - Figure out a way to trade if only one resource away from most wanted build etc. (Merissa)
     - Victory Path Points
         - Defense Points (Maddie)
         - Research Points (Merissa)
@@ -12,14 +12,15 @@ Components needed for simulation:
         - Attack when horde distance is low and there's a likelihood of winning
     - Different strategy types
         - Militaristic - Build knights, outposts/roads, attacks whenever possible (Maddie)
-        - Research - Build outposts, barricades, knights, attacks when horde distance is 1 (Merissa)
-        - Lone Survivor - Build barricades, outposts, knights, only attacks to liberate castles (Merissa)
-        - General - Build order is random, attack somewhat randomly (Maddie)
+        - ~~Research - Build outposts, barricades, knights, attacks when horde distance is 1 (Merissa)~~
+        - ~~Lone Survivor - Build barricades, outposts, knights, only attacks to liberate castles (Merissa)~~
+        - ~~General - Build order is random, attack somewhat randomly (Maddie)~~
 - Board
     - Buildings
         - Each building has player owner
-        - Roads (Maddie)
-            - Don't do anything except allow you to build more outposts
+        - ~~Outpost class (Merissa)~~
+        - ~~Castle class (Merissa)~~
+        - ~~Roads (Maddie)~~
         - Barricades (Maddie)
             - Barricade lowers likelihood of zombie attack upon spread
             EDIT: Changed to lowering likelihood of bringing zombies closer to player
@@ -32,10 +33,10 @@ Components needed for simulation:
 - General simulation (Both)
     - Extra file to run sim.py multiple times and export to CVS/TXT file
     - Parts of a turn:
-        - Resource roll
-        - Possible zombie spread
-        - Build, based on strategy outlined above
-        - Maybe attack, based on strategy outlined above
+        - ~~Resource roll~~
+        - ~~Possible zombie spread~~
+        - ~~Build, based on strategy outlined above~~
+        - ~~Maybe attack, based on strategy outlined above~~
     - Between rounds
         - Check for lone survivor
-        - Update barricades
+        - ~~Update barricades~~

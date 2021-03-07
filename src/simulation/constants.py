@@ -7,11 +7,13 @@ MAX_BOUNTY = 3
 POINTS_TO_MILITARY_VICTORY = 10
 POINTS_TO_RESEARCH_VICTORY = 10
 
+# Spinner for resource
 class Resource(Enum):
     WOOD = 0
     WHEAT = 1
     STEEL = 2
     BRICK = 3
+    ZOMBIE = 4
 
 # Should this enum be replaced by the building cost dict? Maybe
 class Building(Enum):

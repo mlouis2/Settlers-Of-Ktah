@@ -4,6 +4,8 @@ from enum import Enum
 NUM_PLAYERS = 4
 MAX_HORDE_DISTANCE = 6
 MAX_BOUNTY = 3
+POINTS_TO_MILITARY_VICTORY = 10
+POINTS_TO_RESEARCH_VICTORY = 10
 
 class Resource(Enum):
     WOOD = 0
@@ -18,3 +20,11 @@ class Building(Enum):
     BARRICADE = 2
     KNIGHT = 3
     APOTHECARY = 4
+
+BUILD_COSTS = {
+    "OUTPOST": {"WOOD": 2, "WHEAT": 4, "BRICK": 6},
+    "ROAD": {"WOOD": 2, "BRICK": 2},
+    "KNIGHT": {"STEEL": 4, "WHEAT": 2},
+    "APOTHECARY": {"STEEL": 4, "WOOD": 6},
+    "BARRICADE": {"BRICK": 2}
+}

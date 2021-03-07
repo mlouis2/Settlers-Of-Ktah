@@ -1,5 +1,5 @@
 import random
-from player import Player, Strategy, Resource
+from player import Player, Strategy
 from horde import Horde
 import constants
 
@@ -13,7 +13,7 @@ horde = Horde(players)
 
 # represents each round--limited # of rounds until victory paths complete
 for _ in range(0, 5):
-    resource = random.choice(list(Resource)).name
+    resource = random.choice(list(constants.Resource)).name
     for player in players:
         player.collect_resource(resource)
     horde.natural_spread()

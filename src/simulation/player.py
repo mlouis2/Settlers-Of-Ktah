@@ -1,14 +1,12 @@
 import random
 from collections import Counter
 from enum import Enum
-import buildings
-import castle
-from road import Road
+from buildings import Castle, Road, Outpost
 from constants import Building, BUILD_COSTS
 
 DEFENSE_KEY = "defense"
 RESEARCH_KEY = "research"
-
+SURVIVOR_KEY =  "survivor"
 
 class Strategy(Enum):
     GENERAL = 0
@@ -26,8 +24,8 @@ class Player:
         self.roads = []
         self.resources = Counter()
         for _ in range(0, 2):
-            self.outposts.append(buildings.Outpost(index))
-            self.castles.append(castle.Castle(index))
+            self.outposts.append(Outpost(index))
+            self.castles.append(Castle(index))
         self.collect_initial_resource()
         self.num_knights = 0
         self.points = Counter({DEFENSE_KEY: 0, RESEARCH_KEY: 0})
@@ -73,7 +71,7 @@ class Player:
 
         # switch based off of the building enum and build it!
         if building == Building.OUTPOST:
-            self.outposts.append(buildings.Outpost(self.index))
+            self.outposts.append(Outpost(self.index))
         elif building == Building.APOTHECARY:
             outpost_to_upgrade = self.get_plain_outpost_index()
             self.outposts[outpost_to_upgrade].is_apothecary = True

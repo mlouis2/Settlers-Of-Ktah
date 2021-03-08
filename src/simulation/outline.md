@@ -38,5 +38,9 @@ Components needed for simulation:
         - ~~Build, based on strategy outlined above~~
         - ~~Maybe attack, based on strategy outlined above~~
     - Between rounds
-        - Check for lone survivor
+        - ~~Check for lone survivor~~
         - ~~Update barricades~~
+    - ~~Victory paths~~
+        - Military victory (Maddie)
+        - Research victory (Merissa)
+        - Lone Survivor (Merissa)

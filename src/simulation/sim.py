@@ -15,7 +15,6 @@ num_rounds = 0
 
 # represents each round--limited # of rounds until victory paths complete
 while (True):
-    num_rounds += 1
     possible_victory = check_for_victory(players)
     if possible_victory[0] != -1:
         print("SOMEBODY WON! 🤑🤑")
@@ -32,5 +31,6 @@ while (True):
     horde.natural_spread()
     for player in players:
         player.handle_turn(horde)
+    num_rounds += 1
 
 end_game_output(possible_victory[0], possible_victory[1], players, num_rounds)

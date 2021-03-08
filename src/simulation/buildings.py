@@ -1,6 +1,21 @@
 import random
 from collections import Counter
-from constants import Resource, MAX_BOUNTY
+from constants import Resource, MAX_BOUNTY, MAX_HORDE_DISTANCE
+
+
+class Castle:
+    def __init__(self, player_index):
+        self.owner = player_index
+        self.infected = False
+        self.horde_distance = random.randint(1, MAX_HORDE_DISTANCE)
+
+    def infect(self):
+        self.infected = True
+        self.horde_distance = 0
+
+    def uninfect(self):
+        self.infected = False
+        self.horde_distance = 1
 
 class Outpost:
     def __init__(self, index):
@@ -25,3 +40,19 @@ class Outpost:
             resources[tile_resource] = resources[tile_resource] + resource_amount
 
         return resources
+
+
+class Road:
+    def __init__(self, player_index):
+        self.is_barricade = False
+        self.round_count = 0
+
+    def upgrade(self):
+        self.is_barricade = True
+        self.round_count = 3
+
+    def update(self):
+        if self.is_barricade:
+            self.round_count = self.round_count - 1
+            if self.round_count == 0:
+                self.is_barricade = False

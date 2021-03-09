@@ -1,10 +1,9 @@
 from player import DEFENSE_KEY, RESEARCH_KEY, SURVIVOR_KEY
 from constants import POINTS_TO_MILITARY_VICTORY, POINTS_TO_RESEARCH_VICTORY
 
-def update_barricades(players):
-    for player in players:
-        for road in player.roads:
-            road.update()
+def update_barricades(player):
+    for road in player.roads:
+        road.update()
 
 def check_for_lone_survivor(players):
     possible_winners = [player for player in players]
@@ -32,14 +31,15 @@ def check_for_victory(players):
                 return (i, RESEARCH_KEY)
         return (-1, None)
 
-def end_game_output(winner, victory_type, players, num_rounds):
+def end_game_output(winner, victory_type, players, num_rounds, horde):
     victor = players[winner]
     output = """
         Number of rounds taken for game to end: {}
         Victory type: {}
+        Horde size: {}
         The winner is: 
         {}
-    """.format(num_rounds, victory_type, victor)
+    """.format(num_rounds, victory_type, horde.size, victor)
     print(output)
     print("The other players:")
     for player in players:

@@ -2,7 +2,7 @@ import random
 from collections import Counter
 from enum import Enum
 from buildings import Castle, Road, Outpost
-from constants import Building, BUILD_COSTS
+from constants import Building, BUILD_COSTS, MAX_HORDE_DISTANCE
 
 DEFENSE_KEY = "defense"
 RESEARCH_KEY = "research"
@@ -118,6 +118,11 @@ class Player:
     def attack(self, horde):
         horde.battle(self, True)
 
+    def try_to_build_in_order(self, build_order):
+        for build_index in build_order:
+            if self.can_build(build_index):
+                self.build(build_index)
+
     def handle_turn(self, horde):
         win_probability = self.num_knights / (horde.size * 1.5)
         can_attack = self.able_to_attack()
@@ -127,25 +132,28 @@ class Player:
             build_order = list(range(0, len(list(Building))))
             random.shuffle(build_order)
 
-            for build_index in build_order:
-                if self.can_build(build_index):
-                    self.build(build_index)
+            self.try_to_build_in_order(build_order)
 
             # Attacks if 1) able to 2) has 50% chance of winning
             if can_attack and win_probability >= 0.5:
                 self.attack(horde)
 
         elif self.strategy == Strategy.MILITARISTIC:
-            # Build knights, outposts/roads, attacks whenever possible (Maddie)
-            pass
+            build_order = [Building.KNIGHT, Building.OUTPOST,
+                           Building.BARRICADE, Building.ROAD, Building.APOTHECARY]
+
+            self.try_to_build_in_order(build_order)
+
+            # Attack whenever possible
+            if can_attack:
+                self.attack(horde)
 
         elif self.strategy == Strategy.RESEARCH:
             # Build apothecaries and outposts before barricades and knights
             build_order = [Building.APOTHECARY, Building.OUTPOST,
                            Building.BARRICADE, Building.ROAD, Building.KNIGHT]
-            for building in build_order:
-                if self.can_build(building):
-                    self.build(build_index)
+            
+            self.try_to_build_in_order(build_order)
 
             # Attacks if horde distance is 1
             for castle in self.castles:
@@ -156,6 +164,8 @@ class Player:
             # Build barricades and outposts before knights and apothecaries
             build_order = [Building.BARRICADE, Building.OUTPOST,
                            Building.KNIGHT, Building.APOTHECARY, Building.ROAD]
+            
+            self.try_to_build_in_order(build_order)
 
             # Attacks only to liberate castles
             for castle in self.castles:
@@ -185,7 +195,6 @@ class Player:
         return False
 
     def trade_with_bank(self):
-        print(self.resources)
         least_resource = self.resources.most_common()[-1][0]
         for resource in self.resources:
             if self.resources[resource] > 20:
@@ -196,3 +205,33 @@ class Player:
         for outpost in self.outposts:
             for resource in outpost.resources:
                 self.resources[resource] = self.resources[resource] + outpost.resources[resource]
+
+    def get_castle_closest_to_horde(self):
+        closest_castle = (MAX_HORDE_DISTANCE + 1, None)
+        for castle in self.castles:
+            # Ignore infected castles
+            if castle.infected:
+                continue
+            if castle.horde_distance < closest_castle[0]:
+                closest_castle = (castle.horde_distance, castle)
+        return closest_castle[1]
+
+    def spread_zombie(self, players, horde):
+        closest_castle = self.get_castle_closest_to_horde()
+        if closest_castle is not None:
+            # Horde distance for this castle resets to a number close to MAX_HORDE_DISTANCE
+            closest_castle.horde_distance = random.randint(MAX_HORDE_DISTANCE - 2, MAX_HORDE_DISTANCE)
+        # Other players' castles have 30% chance of decreasing in horde distance
+        for player in players:
+            if player.index != self.index:
+                for i in range(0, len(player.castles)):
+                    probability = random.random()
+                    if probability > 0.5:
+                        horde.approach_castle(player, i)
+    
+    def get_barricade_count(self):
+        count = 0
+        for road in self.roads:
+            if road.is_barricade:
+                count = count + 1
+        return count

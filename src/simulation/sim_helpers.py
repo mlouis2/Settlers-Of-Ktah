@@ -7,7 +7,6 @@ def update_barricades(player):
 
 def check_for_lone_survivor(players):
     possible_winners = [player for player in players]
-    losers = []
     for i in range(0, len(players)):
         player = players[i]
         castles_infected = [castle.infected for castle in player.castles]
@@ -22,14 +21,13 @@ def check_for_victory(players):
     survivor = check_for_lone_survivor(players)
     if survivor != -1:
         return (survivor, SURVIVOR_KEY)
-    else:
-        for i in range(0, len(players)):
-            player = players[i]
-            if player.points[DEFENSE_KEY] >= POINTS_TO_MILITARY_VICTORY:
-                return (i, DEFENSE_KEY)
-            if player.points[RESEARCH_KEY] >= POINTS_TO_RESEARCH_VICTORY:
-                return (i, RESEARCH_KEY)
-        return (-1, None)
+    for i in range(0, len(players)):
+        player = players[i]
+        if player.points[DEFENSE_KEY] >= POINTS_TO_MILITARY_VICTORY:
+            return (i, DEFENSE_KEY)
+        if player.points[RESEARCH_KEY] >= POINTS_TO_RESEARCH_VICTORY:
+            return (i, RESEARCH_KEY)
+    return (-1, None)
 
 def end_game_output(winner, victory_type, players, num_rounds, horde):
     victor = players[winner]

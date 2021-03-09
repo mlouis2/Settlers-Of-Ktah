@@ -14,7 +14,6 @@ class Strategy(Enum):
     RESEARCH = 2
     SURVIVOR = 3
 
-
 class Player:
     def __init__(self, index, strategy):
         self.index = index

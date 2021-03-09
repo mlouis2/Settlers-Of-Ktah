@@ -2,7 +2,6 @@ import random
 from collections import Counter
 from constants import Resource, MAX_BOUNTY, MAX_HORDE_DISTANCE
 
-
 class Castle:
     def __init__(self, player_index):
         self.owner = player_index

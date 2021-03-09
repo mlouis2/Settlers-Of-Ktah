@@ -1,12 +1,5 @@
 from enum import Enum
 
-# Holds all simulation constants that we can tweak for testing purposes
-NUM_PLAYERS = 4
-MAX_HORDE_DISTANCE = 6
-MAX_BOUNTY = 3
-POINTS_TO_MILITARY_VICTORY = 10
-POINTS_TO_RESEARCH_VICTORY = 10
-
 # Spinner for resource
 class Resource(Enum):
     WOOD = 0
@@ -22,6 +15,13 @@ class Building(Enum):
     BARRICADE = 2
     KNIGHT = 3
     APOTHECARY = 4
+
+# Holds all simulation constants that we can tweak for testing purposes
+NUM_PLAYERS = 4
+MAX_HORDE_DISTANCE = 6
+MAX_BOUNTY = 3
+POINTS_TO_MILITARY_VICTORY = 10
+POINTS_TO_RESEARCH_VICTORY = 10
 
 BUILD_COSTS = {
     "OUTPOST": {"WOOD": 2, "WHEAT": 4, "BRICK": 6},

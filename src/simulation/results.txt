@@ -1,0 +1,3500 @@
+
+        Number of rounds taken for game to end: 7
+        Victory type: research
+        Horde size: 8
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'ZOMBIE': 4, 'BRICK': 3, 'WOOD': 2, 'STEEL': 2, 'WHEAT': 2})
+            Number of knights: 0
+            Victory points: Counter({'research': 13, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 22, 'WOOD': 22, 'STEEL': 20, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 6, 'ZOMBIE': 5, 'BRICK': 3, 'STEEL': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 7, 'WOOD': 2, 'BRICK': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: survivor
+        Horde size: 9
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 6, 'WHEAT': 4, 'BRICK': 1, 'STEEL': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 26, 'STEEL': 20, 'WHEAT': 6, 'WOOD': 4})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 24, 'BRICK': 20, 'WHEAT': 8, 'ZOMBIE': 5, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 30, 'WHEAT': 24, 'WOOD': 18, 'ZOMBIE': 3, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 15, 'BRICK': 6, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 2
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 40, 'BRICK': 18, 'ZOMBIE': 2, 'STEEL': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 30, 'STEEL': 16, 'BRICK': 9, 'ZOMBIE': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 40, 'STEEL': 12, 'ZOMBIE': 2, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 7
+        Victory type: survivor
+        Horde size: 8
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 21, 'BRICK': 14, 'WHEAT': 9, 'ZOMBIE': 7, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 54, 'WOOD': 16, 'BRICK': 5, 'ZOMBIE': 2, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 35, 'WOOD': 18, 'WHEAT': 18, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 7, 'ZOMBIE': 4, 'WHEAT': 4, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 3, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: survivor
+        Horde size: 9
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 7, 'ZOMBIE': 6, 'WHEAT': 3, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 16, 'WOOD': 15, 'WHEAT': 9, 'ZOMBIE': 3, 'STEEL': 2})
+            Number of knights: 0
+            Victory points: Counter({'research': 12, 'defense': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 36, 'ZOMBIE': 5, 'WHEAT': 3, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 27, 'WOOD': 27, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 36, 'WHEAT': 8, 'WOOD': 8, 'BRICK': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 40, 'WHEAT': 6, 'BRICK': 5, 'ZOMBIE': 3, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 24, 'BRICK': 20, 'WHEAT': 6, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 5, 'ZOMBIE': 4, 'STEEL': 1, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: survivor
+        Horde size: 7
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 4, 'WOOD': 4, 'ZOMBIE': 1, 'WHEAT': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 13, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 30, 'WOOD': 24, 'BRICK': 4, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 18, 'STEEL': 16, 'ZOMBIE': 2, 'WHEAT': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 18, 'WOOD': 1, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 6, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: research
+        Horde size: 9
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 6, 'WHEAT': 5, 'STEEL': 5, 'ZOMBIE': 2, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 21, 'WOOD': 10, 'ZOMBIE': 4, 'WHEAT': 1, 'STEEL': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 5, 'WOOD': 4, 'STEEL': 3, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 5, 'STEEL': 3, 'ZOMBIE': 2, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 7
+        Victory type: research
+        Horde size: 8
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 29, 'BRICK': 22, 'WOOD': 2, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 26, 'WHEAT': 8, 'STEEL': 8, 'WOOD': 5})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 36, 'STEEL': 33, 'ZOMBIE': 4, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 18, 'STEEL': 3, 'ZOMBIE': 1, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 2
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: survivor
+        Horde size: 7
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 15, 'STEEL': 13, 'WHEAT': 13, 'WOOD': 8})
+            Number of knights: 2
+            Victory points: Counter({'research': 4, 'defense': 1})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 36, 'WHEAT': 13, 'BRICK': 9, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 18, 'WOOD': 15, 'STEEL': 10, 'ZOMBIE': 2, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 5, 'BRICK': 1, 'WOOD': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 10
+        Victory type: survivor
+        Horde size: 11
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 14, 'ZOMBIE': 7, 'BRICK': 1, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 23, 'WHEAT': 16, 'WOOD': 5, 'ZOMBIE': 2, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 21, 'BRICK': 17, 'ZOMBIE': 2, 'STEEL': 2, 'WOOD': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'ZOMBIE': 4, 'WOOD': 4, 'WHEAT': 3, 'STEEL': 2, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 6, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: survivor
+        Horde size: 7
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 22, 'BRICK': 18, 'STEEL': 16, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'research': 6, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 4, 'ZOMBIE': 2, 'WOOD': 0, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 18, 'BRICK': 14, 'WHEAT': 4, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 16, 'WHEAT': 8, 'ZOMBIE': 4, 'BRICK': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 6, 'ZOMBIE': 1, 'STEEL': 0, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 2, 'ZOMBIE': 1, 'WHEAT': 1, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 32, 'STEEL': 11, 'BRICK': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 11, 'WOOD': 6, 'ZOMBIE': 2, 'BRICK': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: research
+        Horde size: 4
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 16, 'WOOD': 13, 'ZOMBIE': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 20, 'STEEL': 18, 'ZOMBIE': 5, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 15, 'STEEL': 6, 'ZOMBIE': 4, 'BRICK': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 9, 'ZOMBIE': 3, 'STEEL': 3, 'BRICK': 2, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 6, 'ZOMBIE': 3, 'WOOD': 2, 'BRICK': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 16, 'WHEAT': 10, 'ZOMBIE': 2, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 15, 'ZOMBIE': 3, 'WOOD': 2, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 16, 'BRICK': 6, 'ZOMBIE': 3, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 21, 'BRICK': 3, 'STEEL': 2, 'WOOD': 2})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 19, 'WOOD': 19, 'ZOMBIE': 2, 'STEEL': 1})
+            Number of knights: 0
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 10, 'WOOD': 8, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 9, 'ZOMBIE': 5, 'WHEAT': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 20, 'ZOMBIE': 7, 'BRICK': 1, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 24, 'BRICK': 21, 'WHEAT': 15, 'WOOD': 10, 'ZOMBIE': 3})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 25, 'WHEAT': 8, 'STEEL': 2, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 36, 'WOOD': 25, 'BRICK': 21, 'WHEAT': 15})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 16, 'BRICK': 16, 'WOOD': 7, 'WHEAT': 0})
+            Number of knights: 1
+            Victory points: Counter({'research': 2, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 15, 'WHEAT': 14, 'ZOMBIE': 1, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 36, 'ZOMBIE': 2, 'BRICK': 1, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 4, 'ZOMBIE': 3, 'WOOD': 2, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: research
+        Horde size: 7
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 4, 'WHEAT': 4, 'ZOMBIE': 2, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 2})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 25, 'STEEL': 12, 'WHEAT': 10, 'BRICK': 9})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 45, 'WHEAT': 20, 'STEEL': 4, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 18, 'STEEL': 8, 'WHEAT': 8, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 14, 'ZOMBIE': 5, 'STEEL': 3, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 2
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 18, 'BRICK': 5, 'ZOMBIE': 2, 'STEEL': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 50, 'STEEL': 10, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 25, 'STEEL': 20, 'WOOD': 12, 'ZOMBIE': 3, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 7
+        Victory type: survivor
+        Horde size: 8
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 14, 'BRICK': 4, 'STEEL': 2, 'ZOMBIE': 2, 'WOOD': 0})
+            Number of knights: 6
+            Victory points: Counter({'defense': 3, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 12, 'ZOMBIE': 6, 'STEEL': 0, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 24, 'WHEAT': 10, 'STEEL': 6, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 12, 'WOOD': 6, 'STEEL': 6, 'BRICK': 4, 'ZOMBIE': 3})
+            Number of knights: 0
+            Victory points: Counter({'research': 5, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'ZOMBIE': 4, 'WOOD': 3, 'STEEL': 3, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 2
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 15, 'WOOD': 9, 'WHEAT': 6, 'ZOMBIE': 3, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 14, 'STEEL': 5, 'ZOMBIE': 2, 'WOOD': 2, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 14, 'ZOMBIE': 4, 'WOOD': 1, 'WHEAT': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'ZOMBIE': 3, 'WOOD': 2, 'STEEL': 0, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 3, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 24, 'WHEAT': 5, 'ZOMBIE': 4, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 5, 'STEEL': 4, 'ZOMBIE': 3, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 2, 'defense': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 18, 'ZOMBIE': 4, 'STEEL': 0, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 2
+        Victory type: survivor
+        Horde size: 3
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 6, 'WOOD': 4, 'BRICK': 1, 'ZOMBIE': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 10, 'BRICK': 5, 'ZOMBIE': 3, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 20, 'WOOD': 9, 'BRICK': 6, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'ZOMBIE': 6, 'WOOD': 6, 'WHEAT': 4, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 24, 'WHEAT': 11, 'STEEL': 7, 'BRICK': 0})
+            Number of knights: 2
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 45, 'ZOMBIE': 2, 'BRICK': 0, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 20, 'STEEL': 20, 'ZOMBIE': 5, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 13, 'WOOD': 6, 'ZOMBIE': 3, 'STEEL': 2, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 2, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 13, 'WOOD': 10, 'STEEL': 5, 'ZOMBIE': 2, 'BRICK': 0})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 18, 'WHEAT': 8, 'STEEL': 2, 'BRICK': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 19, 'STEEL': 14, 'ZOMBIE': 2, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 6, 'STEEL': 1, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: survivor
+        Horde size: 7
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 9, 'BRICK': 4, 'ZOMBIE': 3, 'WOOD': 1, 'WHEAT': 1})
+            Number of knights: 2
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 28, 'WHEAT': 25, 'WOOD': 12, 'ZOMBIE': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 28, 'WHEAT': 10, 'WOOD': 8, 'BRICK': 7, 'ZOMBIE': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 15, 'WHEAT': 10, 'STEEL': 2, 'WOOD': 0})
+            Number of knights: 3
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 10, 'BRICK': 3, 'ZOMBIE': 3, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 30, 'WHEAT': 12, 'STEEL': 6, 'ZOMBIE': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 15, 'BRICK': 9, 'STEEL': 6, 'ZOMBIE': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'ZOMBIE': 5, 'WHEAT': 4, 'STEEL': 0, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 6, 'ZOMBIE': 3, 'WHEAT': 3, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 27, 'STEEL': 4, 'WOOD': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 24, 'WHEAT': 9, 'ZOMBIE': 2, 'WOOD': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 16, 'WOOD': 12, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 8, 'WOOD': 8, 'WHEAT': 2, 'ZOMBIE': 2, 'BRICK': 0})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 32, 'WHEAT': 10, 'STEEL': 5, 'ZOMBIE': 2, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 24, 'BRICK': 12, 'ZOMBIE': 5, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 16, 'WHEAT': 12, 'STEEL': 3, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: research
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 4, 'BRICK': 4, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 1
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 25, 'WOOD': 20, 'ZOMBIE': 1, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 5, 'WOOD': 2, 'BRICK': 1, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'research': 3, 'defense': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 15, 'WOOD': 10, 'STEEL': 3, 'ZOMBIE': 3, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: survivor
+        Horde size: 7
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 25, 'STEEL': 16, 'BRICK': 14, 'ZOMBIE': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 30, 'WHEAT': 14, 'BRICK': 7, 'ZOMBIE': 3, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 33, 'BRICK': 7, 'WOOD': 6, 'STEEL': 4, 'ZOMBIE': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 9, 'BRICK': 8, 'ZOMBIE': 2, 'STEEL': 2, 'WOOD': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 7
+        Victory type: survivor
+        Horde size: 8
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 10, 'BRICK': 6, 'STEEL': 4, 'ZOMBIE': 3, 'WHEAT': 2})
+            Number of knights: 0
+            Victory points: Counter({'research': 3, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 22, 'WOOD': 20, 'ZOMBIE': 7, 'WHEAT': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 8, 'BRICK': 8, 'WHEAT': 4, 'WOOD': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 18, 'WHEAT': 6, 'ZOMBIE': 2, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 10
+        Victory type: research
+        Horde size: 11
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 18, 'WOOD': 16, 'STEEL': 14, 'ZOMBIE': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 12, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 31, 'WOOD': 29, 'WHEAT': 17, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 21, 'WHEAT': 16, 'WOOD': 10, 'ZOMBIE': 3, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 6, 'ZOMBIE': 3, 'WHEAT': 1, 'STEEL': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 19, 'ZOMBIE': 4, 'BRICK': 4, 'WHEAT': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 48, 'BRICK': 12, 'ZOMBIE': 4, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 6, 'BRICK': 2, 'WHEAT': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 20, 'STEEL': 20, 'WHEAT': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 16, 'BRICK': 8, 'WOOD': 4, 'ZOMBIE': 3, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 24, 'BRICK': 8, 'WOOD': 4, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 8, 'ZOMBIE': 3, 'BRICK': 2, 'WOOD': 2, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 12, 'ZOMBIE': 2, 'WHEAT': 0, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 28, 'ZOMBIE': 4, 'WHEAT': 3, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 28, 'BRICK': 8, 'WHEAT': 3, 'ZOMBIE': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 24, 'ZOMBIE': 8, 'WHEAT': 3, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 15, 'ZOMBIE': 3, 'WHEAT': 3, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 27, 'ZOMBIE': 2, 'WHEAT': 2, 'BRICK': 2, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 14, 'ZOMBIE': 6, 'STEEL': 0, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 14, 'WHEAT': 8, 'WOOD': 2, 'BRICK': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 15, 'ZOMBIE': 6, 'WOOD': 4, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 17, 'STEEL': 16, 'WOOD': 6, 'ZOMBIE': 2, 'BRICK': 0})
+            Number of knights: 2
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 12, 'STEEL': 8, 'ZOMBIE': 3, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 8, 'ZOMBIE': 5, 'BRICK': 4, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 19, 'BRICK': 0, 'STEEL': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 6, 'ZOMBIE': 4, 'WHEAT': 4, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 8, 'BRICK': 5, 'WOOD': 4, 'ZOMBIE': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 6, 'defense': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 14, 'STEEL': 12, 'ZOMBIE': 9, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 14, 'WHEAT': 6, 'WOOD': 2, 'ZOMBIE': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 13, 'WHEAT': 7, 'ZOMBIE': 4, 'STEEL': 3, 'BRICK': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 20, 'STEEL': 6, 'ZOMBIE': 4, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 21, 'BRICK': 16, 'WOOD': 15, 'STEEL': 9, 'ZOMBIE': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'ZOMBIE': 9, 'STEEL': 9, 'BRICK': 4, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 1
+        Victory type: survivor
+        Horde size: 2
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 4, 'WHEAT': 4, 'STEEL': 3, 'ZOMBIE': 2, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 8, 'WOOD': 4, 'ZOMBIE': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 9, 'STEEL': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 5, 'ZOMBIE': 4, 'STEEL': 3, 'WHEAT': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 7
+        Victory type: survivor
+        Horde size: 8
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 20, 'WHEAT': 8, 'WOOD': 5, 'ZOMBIE': 2, 'BRICK': 0})
+            Number of knights: 2
+            Victory points: Counter({'research': 5, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 24, 'WOOD': 13, 'WHEAT': 12, 'ZOMBIE': 3, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 33, 'STEEL': 32, 'BRICK': 4, 'ZOMBIE': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 12, 'WHEAT': 8, 'ZOMBIE': 1, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: research
+        Horde size: 7
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 25, 'STEEL': 10, 'WOOD': 6, 'BRICK': 6})
+            Number of knights: 1
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 30, 'WHEAT': 18, 'BRICK': 4, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 36, 'STEEL': 30, 'WOOD': 24, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 19, 'WOOD': 4, 'ZOMBIE': 1, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 4
+            Victory points: Counter({'research': 12, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 12, 'BRICK': 4, 'ZOMBIE': 3, 'STEEL': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 4, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'ZOMBIE': 4, 'WHEAT': 4, 'WOOD': 4, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 8, 'WHEAT': 3, 'ZOMBIE': 3, 'BRICK': 2, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 9, 'WOOD': 2, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: research
+        Horde size: 7
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 20, 'WOOD': 6, 'ZOMBIE': 4, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 28, 'STEEL': 17, 'BRICK': 8, 'ZOMBIE': 2, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 24, 'WHEAT': 18, 'STEEL': 14, 'BRICK': 4})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 16, 'STEEL': 7, 'ZOMBIE': 5, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: survivor
+        Horde size: 9
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 28, 'WHEAT': 16, 'ZOMBIE': 3, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 2
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 40, 'WOOD': 33, 'BRICK': 18, 'STEEL': 6, 'ZOMBIE': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 22, 'WOOD': 20, 'STEEL': 12, 'WHEAT': 10, 'ZOMBIE': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 4, 'ZOMBIE': 4, 'WOOD': 3, 'WHEAT': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: research
+        Horde size: 7
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 36, 'STEEL': 17, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 9, 'STEEL': 7, 'WHEAT': 5, 'ZOMBIE': 3, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 18, 'WHEAT': 10, 'STEEL': 2, 'ZOMBIE': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'ZOMBIE': 8, 'STEEL': 2, 'WHEAT': 1, 'BRICK': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 10
+        Victory type: survivor
+        Horde size: 11
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 8, 'BRICK': 8, 'STEEL': 4, 'ZOMBIE': 3, 'WOOD': 1})
+            Number of knights: 4
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 19, 'BRICK': 8, 'STEEL': 6, 'WOOD': 3, 'ZOMBIE': 3})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 26, 'WOOD': 16, 'ZOMBIE': 1, 'WHEAT': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 11, 'ZOMBIE': 6, 'STEEL': 0, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 5
+            Victory points: Counter({'research': 6, 'defense': 1})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: survivor
+        Horde size: 7
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 3, 'WHEAT': 2, 'STEEL': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 18, 'WHEAT': 10, 'ZOMBIE': 3, 'WOOD': 1, 'STEEL': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 16, 'STEEL': 6, 'WOOD': 4, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 7, 'WHEAT': 4, 'STEEL': 2, 'ZOMBIE': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 2
+        Victory type: survivor
+        Horde size: 3
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 13, 'ZOMBIE': 3, 'BRICK': 2, 'STEEL': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 12, 'WOOD': 9, 'WHEAT': 4, 'ZOMBIE': 2, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 6, 'BRICK': 6, 'WHEAT': 6, 'ZOMBIE': 2, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 6, 'BRICK': 2, 'STEEL': 2, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 3, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 6, 'WOOD': 4, 'BRICK': 3, 'ZOMBIE': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 24, 'BRICK': 15, 'WHEAT': 12, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 22, 'WHEAT': 8, 'STEEL': 6, 'BRICK': 4})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 12, 'ZOMBIE': 3, 'STEEL': 2, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 35, 'WOOD': 12, 'ZOMBIE': 2, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 15, 'STEEL': 8, 'ZOMBIE': 2, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 15, 'WOOD': 8, 'ZOMBIE': 2, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 12, 'ZOMBIE': 3, 'WOOD': 2, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: research
+        Horde size: 5
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 10, 'STEEL': 6, 'WHEAT': 4, 'BRICK': 3})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 10, 'WHEAT': 8, 'WOOD': 3, 'ZOMBIE': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 20, 'STEEL': 20, 'ZOMBIE': 4, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 5, 'BRICK': 5, 'ZOMBIE': 2, 'WOOD': 1, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 9
+        Victory type: survivor
+        Horde size: 10
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 30, 'WHEAT': 28, 'ZOMBIE': 3, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 12, 'BRICK': 10, 'WHEAT': 6, 'ZOMBIE': 5, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 30, 'STEEL': 24, 'WHEAT': 10, 'WOOD': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 16, 'ZOMBIE': 4, 'WOOD': 2, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: research
+        Horde size: 4
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 10, 'WHEAT': 4, 'STEEL': 2, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 42, 'STEEL': 15, 'ZOMBIE': 2, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 21, 'WHEAT': 20, 'STEEL': 6, 'ZOMBIE': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 14, 'STEEL': 9, 'WOOD': 6, 'WHEAT': 4, 'ZOMBIE': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: research
+        Horde size: 7
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 16, 'STEEL': 11, 'WOOD': 7, 'ZOMBIE': 3, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 40, 'BRICK': 16, 'WHEAT': 10, 'WOOD': 5})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 14, 'WOOD': 13, 'STEEL': 10, 'ZOMBIE': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 16, 'WHEAT': 6, 'ZOMBIE': 4, 'STEEL': 2, 'WOOD': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 10
+        Victory type: research
+        Horde size: 11
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 29, 'WOOD': 16, 'BRICK': 3, 'ZOMBIE': 2, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 13, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 30, 'BRICK': 20, 'STEEL': 11, 'ZOMBIE': 3, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 36, 'STEEL': 33, 'WHEAT': 30, 'ZOMBIE': 5, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 15, 'STEEL': 4, 'WOOD': 1, 'WHEAT': 0})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 2
+        Victory type: survivor
+        Horde size: 3
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 15, 'WOOD': 6, 'WHEAT': 3, 'ZOMBIE': 3, 'BRICK': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 6, 'STEEL': 1, 'WHEAT': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 2, 'defense': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 6, 'BRICK': 6, 'ZOMBIE': 3, 'WHEAT': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 16, 'ZOMBIE': 3, 'WHEAT': 1, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 3, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 9, 'BRICK': 8, 'WHEAT': 2, 'STEEL': 2})
+            Number of knights: 0
+            Victory points: Counter({'research': 1, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 12, 'STEEL': 8, 'ZOMBIE': 5, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 12, 'WHEAT': 6, 'WOOD': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 8, 'ZOMBIE': 4, 'BRICK': 1, 'WHEAT': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 9
+        Victory type: survivor
+        Horde size: 10
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 15, 'WHEAT': 14, 'WOOD': 10, 'ZOMBIE': 2, 'BRICK': 0})
+            Number of knights: 3
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 50, 'WHEAT': 10, 'STEEL': 9, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 28, 'BRICK': 24, 'WHEAT': 6, 'WOOD': 3, 'ZOMBIE': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 14, 'WHEAT': 10, 'STEEL': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 18, 'ZOMBIE': 8, 'WOOD': 0, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 18, 'WOOD': 9, 'STEEL': 4, 'ZOMBIE': 3, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 15, 'STEEL': 12, 'WHEAT': 9, 'ZOMBIE': 3, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 12, 'WOOD': 12, 'ZOMBIE': 3, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 20, 'STEEL': 10, 'WHEAT': 4, 'ZOMBIE': 2, 'WOOD': 0})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 9, 'WHEAT': 6, 'ZOMBIE': 4, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 21, 'WHEAT': 3, 'WOOD': 3, 'ZOMBIE': 3, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 18, 'ZOMBIE': 3, 'BRICK': 0, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: research
+        Horde size: 9
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 28, 'BRICK': 6, 'WOOD': 4, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 34, 'BRICK': 20, 'ZOMBIE': 4, 'STEEL': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 36, 'WOOD': 30, 'BRICK': 4, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 12, 'WHEAT': 7, 'ZOMBIE': 3, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 22, 'STEEL': 20, 'ZOMBIE': 1, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 18, 'BRICK': 15, 'ZOMBIE': 5, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 10, 'STEEL': 4, 'BRICK': 3, 'ZOMBIE': 2, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'ZOMBIE': 4, 'STEEL': 4, 'WOOD': 2, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 1
+        Victory type: survivor
+        Horde size: 2
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 6, 'STEEL': 6, 'ZOMBIE': 2, 'WHEAT': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 8, 'BRICK': 6, 'WOOD': 2, 'ZOMBIE': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 8, 'WOOD': 4, 'STEEL': 2, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 6, 'ZOMBIE': 2, 'WOOD': 2, 'WHEAT': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'ZOMBIE': 7, 'BRICK': 6, 'WOOD': 5, 'STEEL': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 28, 'BRICK': 12, 'WHEAT': 12, 'WOOD': 5})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 8, 'WOOD': 6, 'STEEL': 5, 'ZOMBIE': 4, 'WHEAT': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 14, 'WOOD': 8, 'WHEAT': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 14, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'ZOMBIE': 3, 'WHEAT': 3, 'WOOD': 2, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 16, 'WHEAT': 16, 'WOOD': 14, 'STEEL': 8})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 20, 'ZOMBIE': 3, 'WOOD': 2, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 8, 'defense': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 16, 'WOOD': 4, 'ZOMBIE': 3, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 20, 'BRICK': 8, 'ZOMBIE': 3, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 10, 'WOOD': 5, 'STEEL': 4, 'ZOMBIE': 2, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 2, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 18, 'WOOD': 18, 'STEEL': 4, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 16, 'ZOMBIE': 2, 'WOOD': 1, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 31, 'BRICK': 14, 'ZOMBIE': 3, 'WHEAT': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 20, 'BRICK': 12, 'STEEL': 8, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 24, 'STEEL': 12, 'ZOMBIE': 3, 'WHEAT': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 8, 'WHEAT': 2, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 1
+            Victory points: Counter({'defense': 7, 'research': 3})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 11, 'WHEAT': 5, 'BRICK': 5, 'WOOD': 0})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 10, 'WOOD': 6, 'STEEL': 5, 'ZOMBIE': 2, 'WHEAT': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 12, 'STEEL': 6, 'WHEAT': 5, 'WOOD': 4})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 2, 'ZOMBIE': 2, 'BRICK': 1, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 4, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 7
+        Victory type: survivor
+        Horde size: 8
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 28, 'STEEL': 16, 'WHEAT': 3, 'ZOMBIE': 2, 'WOOD': 1})
+            Number of knights: 2
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 27, 'WOOD': 6, 'STEEL': 4, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 24, 'WHEAT': 15, 'ZOMBIE': 3, 'BRICK': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 5, 'STEEL': 2, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 1
+            Victory points: Counter({'research': 3, 'defense': 1})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 18, 'WOOD': 18, 'STEEL': 8, 'ZOMBIE': 3, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 16, 'WHEAT': 8, 'STEEL': 8, 'ZOMBIE': 1, 'WOOD': 1})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 12, 'BRICK': 12, 'ZOMBIE': 3, 'WOOD': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 10, 'ZOMBIE': 3, 'WHEAT': 1, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 12, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 12, 'BRICK': 12, 'STEEL': 9, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 12, 'WHEAT': 6, 'STEEL': 3, 'ZOMBIE': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 36, 'BRICK': 15, 'STEEL': 9, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 4, 'STEEL': 4, 'ZOMBIE': 2, 'WOOD': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: research
+        Horde size: 4
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'ZOMBIE': 6, 'STEEL': 1, 'WOOD': 0, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 6, 'STEEL': 6, 'ZOMBIE': 3, 'BRICK': 2, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 6, 'BRICK': 4, 'WHEAT': 4, 'ZOMBIE': 3, 'WOOD': 3})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 6, 'STEEL': 3, 'WHEAT': 2, 'ZOMBIE': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: survivor
+        Horde size: 9
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 10, 'WOOD': 4, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 8
+            Victory points: Counter({'defense': 5, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 20, 'WOOD': 18, 'STEEL': 16, 'BRICK': 6})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 20, 'BRICK': 6, 'ZOMBIE': 4, 'STEEL': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 35, 'WHEAT': 24, 'ZOMBIE': 7, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'ZOMBIE': 2, 'WHEAT': 2, 'WOOD': 0, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 3
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 30, 'WOOD': 20, 'WHEAT': 20, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 18, 'ZOMBIE': 8, 'STEEL': 6, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 24, 'STEEL': 20, 'WHEAT': 10, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: survivor
+        Horde size: 9
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 10, 'WOOD': 4, 'ZOMBIE': 3, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 11, 'STEEL': 7, 'WHEAT': 6, 'WOOD': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 10, 'ZOMBIE': 5, 'STEEL': 1, 'WHEAT': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 2, 'defense': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 20, 'STEEL': 12, 'BRICK': 11, 'ZOMBIE': 2, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'ZOMBIE': 2, 'WOOD': 1, 'WHEAT': 1, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 2
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 20, 'WHEAT': 13, 'WOOD': 4, 'BRICK': 2})
+            Number of knights: 0
+            Victory points: Counter({'research': 2, 'defense': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 8, 'BRICK': 6, 'WHEAT': 3, 'ZOMBIE': 3, 'WOOD': 1})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 40, 'STEEL': 24, 'WHEAT': 5, 'ZOMBIE': 3, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: research
+        Horde size: 6
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 18, 'WHEAT': 12, 'BRICK': 10, 'STEEL': 6, 'ZOMBIE': 1})
+            Number of knights: 0
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 30, 'WHEAT': 12, 'STEEL': 5, 'ZOMBIE': 3, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 4, 'WHEAT': 2, 'ZOMBIE': 2, 'STEEL': 1, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 7, 'ZOMBIE': 2, 'WOOD': 0, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 9
+        Victory type: survivor
+        Horde size: 10
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 14, 'WHEAT': 4, 'ZOMBIE': 3, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 34, 'WOOD': 27, 'STEEL': 3, 'ZOMBIE': 2, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 16, 'WOOD': 14, 'ZOMBIE': 3, 'BRICK': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 28, 'STEEL': 21, 'WHEAT': 16, 'WOOD': 7})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 28, 'STEEL': 21, 'BRICK': 15, 'ZOMBIE': 3, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 28, 'STEEL': 21, 'BRICK': 15, 'ZOMBIE': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 7, 'ZOMBIE': 5, 'BRICK': 5, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'ZOMBIE': 2, 'WHEAT': 1, 'WOOD': 1, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 4, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 6, 'BRICK': 6, 'ZOMBIE': 4, 'STEEL': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 8, 'BRICK': 6, 'WHEAT': 5, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 15, 'BRICK': 4, 'WOOD': 2, 'WHEAT': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'ZOMBIE': 6, 'BRICK': 0, 'WOOD': 0, 'WHEAT': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 18, 'STEEL': 0, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 3
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 32, 'WHEAT': 20, 'ZOMBIE': 1, 'WOOD': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 9, 'WHEAT': 8, 'ZOMBIE': 2, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 8, 'WOOD': 6, 'ZOMBIE': 5, 'STEEL': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 16, 'BRICK': 10, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 26, 'BRICK': 8, 'ZOMBIE': 2, 'WHEAT': 2, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 10, 'WOOD': 8, 'STEEL': 6, 'ZOMBIE': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 20, 'WOOD': 8, 'STEEL': 4, 'WHEAT': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 5, 'ZOMBIE': 2, 'STEEL': 2, 'WOOD': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 12, 'BRICK': 6, 'ZOMBIE': 2, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 12, 'BRICK': 12, 'WOOD': 5, 'ZOMBIE': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 16, 'WOOD': 6, 'STEEL': 2, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: research
+        Horde size: 7
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 6, 'STEEL': 0, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 10, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 24, 'BRICK': 12, 'ZOMBIE': 2, 'WHEAT': 0, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 24, 'BRICK': 6, 'WHEAT': 6, 'ZOMBIE': 5, 'WOOD': 0})
+            Number of knights: 2
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 12, 'WHEAT': 5, 'ZOMBIE': 3, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 9
+        Victory type: research
+        Horde size: 10
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 29, 'WHEAT': 20, 'STEEL': 2, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 12, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 58, 'BRICK': 48, 'STEEL': 14, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 50, 'BRICK': 20, 'ZOMBIE': 3, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 12, 'STEEL': 2, 'BRICK': 1, 'WOOD': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: research
+        Horde size: 9
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 23, 'BRICK': 6, 'STEEL': 5, 'WOOD': 2})
+            Number of knights: 1
+            Victory points: Counter({'research': 12, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 18, 'ZOMBIE': 5, 'WOOD': 4, 'BRICK': 4, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'STEEL': 16, 'WHEAT': 5, 'ZOMBIE': 3, 'BRICK': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 5, 'defense': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 8, 'BRICK': 4, 'WHEAT': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 12, 'WOOD': 4, 'STEEL': 2, 'ZOMBIE': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 7, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 16, 'WHEAT': 10, 'ZOMBIE': 6, 'STEEL': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 12, 'STEEL': 6, 'BRICK': 4, 'ZOMBIE': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'BRICK': 12, 'STEEL': 6, 'ZOMBIE': 3, 'WHEAT': 1, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: survivor
+        Horde size: 7
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 36, 'WOOD': 22, 'BRICK': 5, 'ZOMBIE': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 26, 'WOOD': 10, 'WHEAT': 9, 'ZOMBIE': 3, 'STEEL': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 27, 'BRICK': 7, 'WOOD': 6, 'ZOMBIE': 5, 'STEEL': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 16, 'BRICK': 7, 'ZOMBIE': 4, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 9
+        Victory type: research
+        Horde size: 10
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 20, 'WHEAT': 18, 'STEEL': 11, 'BRICK': 6})
+            Number of knights: 2
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 32, 'BRICK': 15, 'STEEL': 10, 'ZOMBIE': 3, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 20, 'BRICK': 15, 'ZOMBIE': 5, 'WOOD': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 20, 'BRICK': 5, 'WOOD': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: research
+        Horde size: 4
+        The winner is: 
+        
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 17, 'BRICK': 7, 'WOOD': 1, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 11, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 15, 'WHEAT': 10, 'ZOMBIE': 7, 'STEEL': 3, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 25, 'STEEL': 18, 'WHEAT': 10, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WOOD': 18, 'WHEAT': 15, 'BRICK': 10, 'STEEL': 6, 'ZOMBIE': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 15
+        Victory type: research
+        Horde size: 16
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 16, 'WHEAT': 10, 'BRICK': 9, 'WOOD': 5})
+            Number of knights: 1
+            Victory points: Counter({'research': 12, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 60, 'BRICK': 14, 'WHEAT': 8, 'WOOD': 3, 'ZOMBIE': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 65, 'BRICK': 50, 'STEEL': 14, 'WOOD': 11, 'ZOMBIE': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 1, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 17, 'WHEAT': 6, 'ZOMBIE': 2, 'STEEL': 1, 'WOOD': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 3
+        Victory type: survivor
+        Horde size: 4
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 27, 'ZOMBIE': 1, 'WOOD': 0, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WOOD': 20, 'STEEL': 9, 'BRICK': 9, 'WHEAT': 3})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 10, 'STEEL': 5, 'ZOMBIE': 2, 'WOOD': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'ZOMBIE': 3, 'STEEL': 1, 'WOOD': 0, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 6, 'defense': 0})
+        
+
+        Number of rounds taken for game to end: 5
+        Victory type: survivor
+        Horde size: 6
+        The winner is: 
+        
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 16, 'STEEL': 12, 'WOOD': 10, 'BRICK': 5, 'ZOMBIE': 2})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 20, 'STEEL': 18, 'ZOMBIE': 3, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 20, 'STEEL': 6, 'ZOMBIE': 5, 'BRICK': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'WHEAT': 8, 'ZOMBIE': 6, 'WOOD': 3, 'BRICK': 1, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 4
+        Victory type: survivor
+        Horde size: 5
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 12, 'WHEAT': 8, 'WOOD': 6, 'ZOMBIE': 3, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'BRICK': 18, 'WOOD': 10, 'STEEL': 6, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'research': 5, 'defense': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WOOD': 6, 'WHEAT': 2, 'ZOMBIE': 1, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WOOD': 12, 'ZOMBIE': 4, 'WHEAT': 2, 'STEEL': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 8
+        Victory type: survivor
+        Horde size: 9
+        The winner is: 
+        
+            Index: 0
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'BRICK': 24, 'WOOD': 8, 'STEEL': 6, 'WHEAT': 4, 'ZOMBIE': 2})
+            Number of knights: 0
+            Victory points: Counter({'research': 12, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 1
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 26, 'WOOD': 6, 'ZOMBIE': 2, 'STEEL': 2, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 20, 'WHEAT': 6, 'ZOMBIE': 5, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.MILITARISTIC
+            Resources: Counter({'WHEAT': 20, 'BRICK': 16, 'ZOMBIE': 2, 'WOOD': 1, 'STEEL': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 7
+        Victory type: survivor
+        Horde size: 8
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'STEEL': 13, 'BRICK': 11, 'WOOD': 4, 'WHEAT': 3, 'ZOMBIE': 1})
+            Number of knights: 1
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.GENERAL
+            Resources: Counter({'WHEAT': 21, 'BRICK': 16, 'ZOMBIE': 6, 'WOOD': 4, 'STEEL': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'BRICK': 10, 'ZOMBIE': 5, 'STEEL': 1, 'WOOD': 0, 'WHEAT': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 16, 'WOOD': 4, 'STEEL': 2, 'BRICK': 1})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+        Number of rounds taken for game to end: 6
+        Victory type: research
+        Horde size: 7
+        The winner is: 
+        
+            Index: 2
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 40, 'WHEAT': 16, 'WOOD': 10, 'BRICK': 4, 'ZOMBIE': 2})
+            Number of knights: 1
+            Victory points: Counter({'research': 13, 'defense': 0})
+        
+    
+The other players:
+
+            Index: 0
+            Strategy type: Strategy.SURVIVOR
+            Resources: Counter({'STEEL': 48, 'WOOD': 12, 'ZOMBIE': 7, 'WHEAT': 0, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 1
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'STEEL': 48, 'WHEAT': 18, 'ZOMBIE': 2, 'BRICK': 0, 'WOOD': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        
+
+            Index: 3
+            Strategy type: Strategy.RESEARCH
+            Resources: Counter({'WHEAT': 16, 'WOOD': 9, 'STEEL': 1, 'BRICK': 0})
+            Number of knights: 0
+            Victory points: Counter({'defense': 0, 'research': 0})
+        

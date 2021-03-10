@@ -19,6 +19,10 @@ class Horde:
     # Called per-round, increases Horde size and might move Horde closer to player
     # castles or trigger a battle.
     def natural_spread(self):
+        # 50% chance of spreading
+        probability = random.random()
+        if probability < 0.5:
+            return
         self.size = self.size + 1
         for player in self.players:
             for castle_index in range (0, 2):
@@ -34,5 +38,5 @@ class Horde:
                     self.approach_castle(player, castle_index)
 
     def battle(self, player, player_initiated = False):
-        probability = player.num_knights / (self.size * 1.5)
+        probability = player.num_knights / (self.size)
         player.handle_win_or_loss((probability > random.random()), player_initiated)

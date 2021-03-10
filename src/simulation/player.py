@@ -144,7 +144,7 @@ class Player:
             self.try_to_build_in_order(build_order)
 
             # Attack whenever possible
-            if can_attack:
+            if can_attack and win_probability >= 0.5:
                 self.attack(horde)
 
         elif self.strategy == Strategy.RESEARCH:

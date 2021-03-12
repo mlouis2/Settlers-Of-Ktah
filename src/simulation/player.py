@@ -148,7 +148,6 @@ class Player:
                 self.attack(horde)
 
         elif self.strategy == Strategy.RESEARCH:
-            # Build apothecaries and outposts before barricades and knights
             build_order = [Building.APOTHECARY, Building.OUTPOST,
                            Building.BARRICADE, Building.ROAD, Building.KNIGHT]
             
@@ -160,7 +159,6 @@ class Player:
                     self.attack(horde)
 
         elif self.strategy == Strategy.SURVIVOR:
-            # Build barricades and outposts before knights and apothecaries
             build_order = [Building.BARRICADE, Building.OUTPOST,
                            Building.KNIGHT, Building.APOTHECARY, Building.ROAD]
             

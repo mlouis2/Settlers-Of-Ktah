@@ -2,9 +2,10 @@ import random
 
 class Horde:
 
-    def __init__(self, players):
+    def __init__(self, players, log):
         self.size = 1
         self.players = players
+        self.log = log
     
     def approach_castle(self, player, castle_index, can_battle = True):
         horde_distance = player.castles[castle_index].horde_distance
@@ -23,6 +24,8 @@ class Horde:
         probability = random.random()
         if probability < 0.5:
             return
+        if self.log:
+            print("The Horde is spreading.")
         self.size = self.size + 1
         for player in self.players:
             for castle_index in range (0, 2):
@@ -38,5 +41,8 @@ class Horde:
                     self.approach_castle(player, castle_index)
 
     def battle(self, player, player_initiated = False):
+        if self.log:
+            print("The Horde is battling with player {}".format(player.index))
+            print("Was the battle player initiated? {}".format(player_initiated))
         probability = player.num_knights / (self.size)
         player.handle_win_or_loss((probability > random.random()), player_initiated)

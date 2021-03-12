@@ -33,7 +33,7 @@ class Outpost:
         resources = Counter()
         for _ in range(0, outpost_touched_tiles):
             tile_resource = random.choice(list(Resource)).name
-            while tile_resource == Resource.ZOMBIE:
+            while tile_resource == Resource.ZOMBIE.name:
                 tile_resource = random.choice(list(Resource)).name
             resource_amount = random.randint(1, MAX_BOUNTY)
             resources[tile_resource] = resources[tile_resource] + resource_amount

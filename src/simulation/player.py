@@ -15,9 +15,10 @@ class Strategy(Enum):
     SURVIVOR = 3
 
 class Player:
-    def __init__(self, index, strategy):
+    def __init__(self, index, strategy, log):
         self.index = index
         self.strategy = strategy
+        self.log = log
         self.outposts = []
         self.castles = []
         self.roads = []
@@ -39,6 +40,8 @@ class Player:
         """.format(self.index, self.strategy, self.resources, self.num_knights, self.points)
 
     def collect_resource(self, resource):
+        if self.log:
+            print("Player {} collecting resource {}".format(self.index, resource))
         for outpost in self.outposts:
             self.resources[resource] = self.resources[resource] + outpost.resources[resource]
             if outpost.is_apothecary:
@@ -63,6 +66,8 @@ class Player:
         return True
 
     def build(self, build_index):
+        if self.log:
+            print("Player {} is building {}".format(self.index, Building(build_index)))
         building = Building(build_index)
         costs = BUILD_COSTS[building.name]
         for resource in costs:
@@ -85,7 +90,10 @@ class Player:
             pass
 
     # Player is able to attack if they have a castle with horde distance of 3 or less
-    def able_to_attack(self):
+    def able_to_attack(self, horde):
+        # Must be a horde tile to fight
+        if horde.size == 1:
+            return False
         for castle in self.castles:
             if castle.horde_distance <= 2:
                 return True
@@ -99,6 +107,8 @@ class Player:
         return -1
 
     def handle_win_or_loss(self, win, player_initiated):
+        if self.log:
+            print("Whether or not Player {} won the battle: {}".format(self.index, win))
         if win:
             self.points[DEFENSE_KEY] = self.points[DEFENSE_KEY] + 1
             infected_castle_index = self.get_infected_castle_index()
@@ -109,12 +119,17 @@ class Player:
         else:
             if self.num_knights > 0:
                 self.num_knights = self.num_knights - 1
-            for castle in self.castles:
-                if not castle.infected:
-                    castle.infect()
-                    break
+            if not player_initiated:
+                for castle in self.castles:
+                    if not castle.infected:
+                        if self.log:
+                            print("Player {} has had a castle infected.".format(self.index))
+                        castle.infect()
+                        break
 
     def attack(self, horde):
+        if self.log:
+            print("Player {} is attacking the Horde.".format(self.index))
         horde.battle(self, True)
 
     def try_to_build_in_order(self, build_order):
@@ -123,8 +138,10 @@ class Player:
                 self.build(build_index)
 
     def handle_turn(self, horde):
+        if self.log:
+            print("PLAYER {}'S TURN BEGINS.".format(self.index))
         win_probability = self.num_knights / (horde.size * 1.5)
-        can_attack = self.able_to_attack()
+        can_attack = self.able_to_attack(horde)
 
         if self.strategy == Strategy.GENERAL:
             # Randomized build order
@@ -192,6 +209,8 @@ class Player:
         return False
 
     def trade_with_bank(self):
+        if self.log:
+            print("Player {} is trading with the bank.".format(self.index))
         least_resource = self.resources.most_common()[-1][0]
         for resource in self.resources:
             if self.resources[resource] > 20:
@@ -214,6 +233,8 @@ class Player:
         return closest_castle[1]
 
     def spread_zombie(self, players, horde):
+        if self.log:
+            print("Player {} is spreading zombie.".format(self.index))
         closest_castle = self.get_castle_closest_to_horde()
         if closest_castle is not None:
             # Horde distance for this castle resets to a number close to MAX_HORDE_DISTANCE

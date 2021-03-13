@@ -1,19 +1,20 @@
 import sys
 
-NUM_ITERATIONS = 1
+NUM_ITERATIONS = 50
 from sim import perform_simulation
 
 with open('results.txt', 'w') as f:
     sys.stdout = f
     for i in range(NUM_ITERATIONS):
-        perform_simulation(True)
+        perform_simulation(False)
 
-# TODO: Add some function to constants.py that allows for constants to be set
-# TODO: why do people have zombie resources? -> merissa [ML: I think I fixed this]
-# TODO: why do they have so many resources? -> merissa
+# Bugs to look at / Things to do:
+# - Player spread leads to zombie battle? -> Maddie
+# - Zombies can only attack one person per natural spread -> Maddie
+# - Remove player from game if they lose both castles -> Merissa
+# - Add class/functions to constants.py to allow for constants to be set -> Merissa
 
 # look into:
-#       - look into why number of rounds is very low
 #       - should military and research points be combined?
 #       - apothecaries no longer collect resources?
 #       - the more resources player have, the more zombies spawn?

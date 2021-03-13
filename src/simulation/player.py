@@ -209,12 +209,12 @@ class Player:
         return False
 
     def trade_with_bank(self):
-        if self.log:
-            print("Player {} is trading with the bank.".format(self.index))
         least_resource = self.resources.most_common()[-1][0]
         for resource in self.resources:
-            if self.resources[resource] > 20:
-                self.resources[resource] -= 20
+            if self.resources[resource] > 15:
+                if self.log:
+                    print("Player {} traded in {} for {} from the bank.".format(self.index, resource, least_resource))
+                self.resources[resource] -= 15
                 self.resources[least_resource] += 1
 
     def collect_initial_resource(self):

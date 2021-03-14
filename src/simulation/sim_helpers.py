@@ -9,8 +9,7 @@ def check_for_lone_survivor(players):
     possible_winners = [player for player in players]
     for i in range(0, len(players)):
         player = players[i]
-        castles_infected = [castle.infected for castle in player.castles]
-        if castles_infected[0] and castles_infected[1]:
+        if player.has_lost:
             possible_winners.remove(player)
     # If only one person left standing
     if len(possible_winners) == 1:
@@ -23,6 +22,8 @@ def check_for_victory(players):
         return (survivor, SURVIVOR_KEY)
     for i in range(0, len(players)):
         player = players[i]
+        if player.has_lost:
+            continue
         if player.points[DEFENSE_KEY] >= POINTS_TO_MILITARY_VICTORY:
             return (i, DEFENSE_KEY)
         if player.points[RESEARCH_KEY] >= POINTS_TO_RESEARCH_VICTORY:

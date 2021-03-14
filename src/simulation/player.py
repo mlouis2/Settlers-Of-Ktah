@@ -29,19 +29,19 @@ class Player:
         self.collect_initial_resource()
         self.num_knights = 0
         self.points = Counter({DEFENSE_KEY: 0, RESEARCH_KEY: 0})
+        self.has_lost = False
 
     def __str__(self):
         return """
             Index: {}
+            Out of game: {}
             Strategy type: {}
             Resources: {}
             Number of knights: {}
             Victory points: {}
-        """.format(self.index, self.strategy, self.resources, self.num_knights, self.points)
+        """.format(self.index, self.has_lost, self.strategy, self.resources, self.num_knights, self.points)
 
     def collect_resource(self, resource):
-        if self.log:
-            print("Player {} collecting resource {}".format(self.index, resource))
         for outpost in self.outposts:
             self.resources[resource] = self.resources[resource] + outpost.resources[resource]
             if outpost.is_apothecary:
@@ -125,6 +125,7 @@ class Player:
                         if self.log:
                             print("Player {} has had a castle infected.".format(self.index))
                         castle.infect()
+                        self.maybe_remove_player()
                         break
 
     def attack(self, horde):
@@ -253,3 +254,10 @@ class Player:
             if road.is_barricade:
                 count = count + 1
         return count
+
+    def maybe_remove_player(self):
+        for castle in self.castles:
+            if not castle.infected:
+                return
+        # both castles are infected, player is out!
+        self.has_lost = True

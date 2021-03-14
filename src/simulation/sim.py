@@ -14,9 +14,9 @@ def perform_simulation(log = False):
     horde = Horde(players, log)
     num_rounds = 0
     
-    print("TESTING INITIAL RESOURCES")
-    for player in players:
-        print(player.resources)
+    # print("TESTING INITIAL RESOURCES")
+    # for player in players:
+    #     print(player.resources)
 
     # Each iteration represents a round
     while (True):
@@ -24,10 +24,14 @@ def perform_simulation(log = False):
 
         # Each iteration represents a turn
         for player in players:
+            if player.has_lost:
+                continue
             resource = random.choice(list(Resource))
             if resource == Resource.ZOMBIE:
                 player.spread_zombie(players, horde)
             else:
+                if log:
+                    print(f'Players are collecting resource {resource.name}')
                 for resource_collector in players:
                     resource_collector.collect_resource(resource.name)
             update_barricades(player)

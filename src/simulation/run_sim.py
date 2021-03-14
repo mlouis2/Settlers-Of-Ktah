@@ -1,6 +1,6 @@
 import sys
 
-NUM_ITERATIONS = 25
+NUM_ITERATIONS = 50
 from sim import perform_simulation
 
 with open('results.txt', 'w') as f:

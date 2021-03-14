@@ -8,7 +8,6 @@ class Resource(Enum):
     BRICK = 3
     ZOMBIE = 4
 
-# Should this enum be replaced by the building cost dict? Maybe
 class Building(Enum):
     OUTPOST = 0
     ROAD = 1
@@ -21,7 +20,7 @@ NUM_PLAYERS = 4
 MAX_HORDE_DISTANCE = 6
 MAX_BOUNTY = 3
 POINTS_TO_MILITARY_VICTORY = 10
-POINTS_TO_RESEARCH_VICTORY = 10
+POINTS_TO_RESEARCH_VICTORY = 30
 
 BUILD_COSTS = {
     "OUTPOST": {"WOOD": 2, "WHEAT": 4, "BRICK": 6},

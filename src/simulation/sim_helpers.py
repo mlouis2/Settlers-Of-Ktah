@@ -1,5 +1,26 @@
 from player import DEFENSE_KEY, RESEARCH_KEY, SURVIVOR_KEY
-from constants import POINTS_TO_MILITARY_VICTORY, POINTS_TO_RESEARCH_VICTORY
+import constants
+
+def update_research_v_points(num):
+    constants.POINTS_TO_RESEARCH_VICTORY = num
+
+def update_military_v_points(num):
+    constants.POINTS_TO_MILITARY_VICTORY = num
+
+def update_outpost_cost(costs):
+    constants.BUILD_COSTS["OUTPOST"] = costs
+
+def update_apothecary_cost(costs):
+    constants.BUILD_COSTS["APOTHECARY"] = costs
+
+def update_road_cost(costs):
+    constants.BUILD_COSTS["ROAD"] = costs
+
+def update_knight_cost(costs):
+    constants.BUILD_COSTS["KNIGHT"] = costs
+
+def update_barricade_cost(costs):
+    constants.BUILD_COSTS["BARRICADE"] = costs
 
 def update_barricades(player):
     for road in player.roads:
@@ -24,9 +45,9 @@ def check_for_victory(players):
         player = players[i]
         if player.has_lost:
             continue
-        if player.points[DEFENSE_KEY] >= POINTS_TO_MILITARY_VICTORY:
+        if player.points[DEFENSE_KEY] >= constants.POINTS_TO_MILITARY_VICTORY:
             return (i, DEFENSE_KEY)
-        if player.points[RESEARCH_KEY] >= POINTS_TO_RESEARCH_VICTORY:
+        if player.points[RESEARCH_KEY] >= constants.POINTS_TO_RESEARCH_VICTORY:
             return (i, RESEARCH_KEY)
     return (-1, None)
 

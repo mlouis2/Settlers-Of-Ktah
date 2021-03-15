@@ -1,7 +1,7 @@
 - Bugs to look at / Things to do:
     - Player spread leads to zombie battle? -> Maddie
     - Zombies can only attack one person per natural spread -> Maddie
-    - Add class/functions to constants.py to allow for constants to be set -> Merissa
+    - Add functions to output aggregate simulation results
 
 - look into:
     - should military and research points be combined?

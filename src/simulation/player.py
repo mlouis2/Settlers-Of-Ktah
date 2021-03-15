@@ -6,13 +6,15 @@ from constants import Building, BUILD_COSTS, MAX_HORDE_DISTANCE
 
 DEFENSE_KEY = "defense"
 RESEARCH_KEY = "research"
-SURVIVOR_KEY =  "survivor"
+SURVIVOR_KEY = "survivor"
+
 
 class Strategy(Enum):
     GENERAL = 0
     MILITARISTIC = 1
     RESEARCH = 2
     SURVIVOR = 3
+
 
 class Player:
     def __init__(self, index, strategy, log):
@@ -32,26 +34,33 @@ class Player:
         self.has_lost = False
 
     def __str__(self):
+        num_apothecaries = 0
+        for outpost in self.outposts:
+            if outpost.is_apothecary:
+                num_apothecaries += 1
+        buildings = f'Apothecaries: {num_apothecaries}, Outposts: {len(self.outposts)}, Roads: {len(self.roads)}'
         return """
             Index: {}
             Out of game: {}
             Strategy type: {}
             Resources: {}
+            Buildings: {}
             Number of knights: {}
             Victory points: {}
-        """.format(self.index, self.has_lost, self.strategy, self.resources, self.num_knights, self.points)
+        """.format(self.index, self.has_lost, self.strategy, self.resources, buildings, self.num_knights, self.points)
 
     def collect_resource(self, resource):
         for outpost in self.outposts:
-            self.resources[resource] = self.resources[resource] + outpost.resources[resource]
+            self.resources[resource] = self.resources[resource] + \
+                outpost.resources[resource]
             if outpost.is_apothecary:
                 self.points[RESEARCH_KEY] += 1
 
     def can_build(self, build_index):
         building = Building(build_index)
         if building == Building.OUTPOST:
-            # for every outpost after the sixth outpost, needs two roads for every outpost
-            if len(self.outposts) > 6 and (len(self.outposts) - 6) / 2 > len(self.roads):
+            # for every outpost after the fifth outpost, needs two roads for every outpost
+            if len(self.outposts) > 5 and (len(self.outposts) - 5) / 2 > len(self.roads):
                 return False
         if building == Building.APOTHECARY:
             if self.get_plain_outpost_index() == -1:
@@ -67,11 +76,13 @@ class Player:
 
     def build(self, build_index):
         if self.log:
-            print("Player {} is building {}".format(self.index, Building(build_index)))
+            print("Player {} is building {}".format(
+                self.index, Building(build_index)))
         building = Building(build_index)
         costs = BUILD_COSTS[building.name]
         for resource in costs:
-            self.resources[resource] = self.resources[resource] - costs[resource]
+            self.resources[resource] = self.resources[resource] - \
+                costs[resource]
 
         # switch based off of the building enum and build it!
         if building == Building.OUTPOST:
@@ -108,7 +119,7 @@ class Player:
 
     def handle_win_or_loss(self, win, player_initiated):
         if self.log:
-            print("Whether or not Player {} won the battle: {}".format(self.index, win))
+            print(f'Whether or not Player {self.index} won the battle: {win}')
         if win:
             self.points[DEFENSE_KEY] = self.points[DEFENSE_KEY] + 1
             infected_castle_index = self.get_infected_castle_index()
@@ -123,14 +134,14 @@ class Player:
                 for castle in self.castles:
                     if not castle.infected:
                         if self.log:
-                            print("Player {} has had a castle infected.".format(self.index))
+                            print(f'Player {self.index} has had a castle infected.')
                         castle.infect()
                         self.maybe_remove_player()
                         break
 
     def attack(self, horde):
         if self.log:
-            print("Player {} is attacking the Horde.".format(self.index))
+            print(f'Player {self.index} is attacking the Horde.')
         horde.battle(self, True)
 
     def try_to_build_in_order(self, build_order):
@@ -168,7 +179,7 @@ class Player:
         elif self.strategy == Strategy.RESEARCH:
             build_order = [Building.APOTHECARY, Building.OUTPOST,
                            Building.BARRICADE, Building.ROAD, Building.KNIGHT]
-            
+
             self.try_to_build_in_order(build_order)
 
             # Attacks if horde distance is 1
@@ -179,7 +190,7 @@ class Player:
         elif self.strategy == Strategy.SURVIVOR:
             build_order = [Building.BARRICADE, Building.OUTPOST,
                            Building.KNIGHT, Building.APOTHECARY, Building.ROAD]
-            
+
             self.try_to_build_in_order(build_order)
 
             # Attacks only to liberate castles
@@ -214,14 +225,16 @@ class Player:
         for resource in self.resources:
             if self.resources[resource] > 15:
                 if self.log:
-                    print("Player {} traded in {} for {} from the bank.".format(self.index, resource, least_resource))
+                    print("Player {} traded in {} for {} from the bank.".format(
+                        self.index, resource, least_resource))
                 self.resources[resource] -= 15
                 self.resources[least_resource] += 1
 
     def collect_initial_resource(self):
         for outpost in self.outposts:
             for resource in outpost.resources:
-                self.resources[resource] = self.resources[resource] + outpost.resources[resource]
+                self.resources[resource] = self.resources[resource] + \
+                    outpost.resources[resource]
 
     def get_castle_closest_to_horde(self):
         closest_castle = (MAX_HORDE_DISTANCE + 1, None)
@@ -239,7 +252,8 @@ class Player:
         closest_castle = self.get_castle_closest_to_horde()
         if closest_castle is not None:
             # Horde distance for this castle resets to a number close to MAX_HORDE_DISTANCE
-            closest_castle.horde_distance = random.randint(MAX_HORDE_DISTANCE - 2, MAX_HORDE_DISTANCE)
+            closest_castle.horde_distance = random.randint(
+                MAX_HORDE_DISTANCE - 2, MAX_HORDE_DISTANCE)
         # Other players' castles have 30% chance of decreasing in horde distance
         for player in players:
             if player.index != self.index:
@@ -247,7 +261,7 @@ class Player:
                     probability = random.random()
                     if probability > 0.5:
                         horde.approach_castle(player, i)
-    
+
     def get_barricade_count(self):
         count = 0
         for road in self.roads:

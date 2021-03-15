@@ -50,4 +50,4 @@ def perform_simulation(log = False):
     end_game_output(possible_victory[0], possible_victory[1], players, num_rounds, horde)
 
 # Allows this file to still be called on its own
-perform_simulation()
+# perform_simulation()

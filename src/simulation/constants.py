@@ -15,18 +15,19 @@ class Building(Enum):
     KNIGHT = 3
     APOTHECARY = 4
 
+MAX_HORDE_DISTANCE = 6
+
 # Holds all simulation constants that we can tweak for testing purposes
 NUM_PLAYERS = 4
-MAX_HORDE_DISTANCE = 6
 MAX_BOUNTY = 3
-POINTS_TO_MILITARY_VICTORY = 10
+POINTS_TO_MILITARY_VICTORY = 12
 POINTS_TO_RESEARCH_VICTORY = 30
-BATTLE_DIFFICULTY = 1.0
+BATTLE_DIFFICULTY = 1.00
 
 BUILD_COSTS = {
     "OUTPOST": {"WOOD": 2, "WHEAT": 4, "BRICK": 6},
     "ROAD": {"WOOD": 2, "BRICK": 2},
     "KNIGHT": {"STEEL": 4, "WHEAT": 2},
-    "APOTHECARY": {"STEEL": 4, "WOOD": 6},
+    "APOTHECARY": {"STEEL": 4, "WOOD": 6, "BRICK": 2, "WHEAT": 2},
     "BARRICADE": {"BRICK": 2}
 }

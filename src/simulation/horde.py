@@ -32,6 +32,8 @@ class Horde:
             print("The Horde is spreading.")
         self.size = self.size + 1
         for player in self.players:
+            if player.has_lost:
+                continue
             for castle_index in range (0, 2):
 
                 probability = random.random()
@@ -52,5 +54,5 @@ class Horde:
         if self.log:
             print("The Horde is battling with player {}".format(player.index))
             print("Was the battle player initiated? {}".format(player_initiated))
-        probability = player.num_knights / (self.size) * BATTLE_DIFFICULTY
+        probability = player.num_knights / (self.size * BATTLE_DIFFICULTY)
         player.handle_win_or_loss((probability > random.random()), player_initiated)

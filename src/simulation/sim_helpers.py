@@ -32,6 +32,9 @@ def check_for_lone_survivor(players):
         player = players[i]
         if player.has_lost:
             possible_winners.remove(player)
+    # This is what was causing the bug... but why does this happen?
+    if len(possible_winners) == 0:
+        return 0
     # If only one person left standing
     if len(possible_winners) == 1:
         return possible_winners[0].index

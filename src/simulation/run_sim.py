@@ -5,7 +5,7 @@ from sim import perform_simulation
 import sys
 import re
 
-NUM_ITERATIONS = 1000
+NUM_ITERATIONS = 2000
 optimal_round_lower = 15  # 1 hour game
 optimal_round_upper = 30  # 2 hour game
 optimal_round_count = (optimal_round_lower + optimal_round_upper) / 2
@@ -32,8 +32,8 @@ def calculate_loss(avg_rounds, defense_p, research_p):
 def run_simulations():
     with open('results.txt', 'w') as f:
         sys.stdout = f
-        for i in range(NUM_ITERATIONS):
-            perform_simulation(False)
+        for _ in range(NUM_ITERATIONS):
+            perform_simulation()
 
 
 # Parses results.txt to obtain aggregate simulation results.

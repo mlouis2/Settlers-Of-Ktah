@@ -20,6 +20,9 @@ def perform_simulation(log = False):
 
         # Each iteration represents a turn
         for player in players:
+            possible_victory = check_for_victory(players)
+            if possible_victory[0] != -1:
+                break
             if player.has_lost:
                 continue
             resource = random.choice(list(Resource))
@@ -32,10 +35,6 @@ def perform_simulation(log = False):
                     resource_collector.collect_resource(resource.name)
             update_barricades(player)
             player.handle_turn(horde)
-
-            possible_victory = check_for_victory(players)
-            if possible_victory[0] != -1:
-                break
         
         if possible_victory[0] != -1:
             break

@@ -256,6 +256,8 @@ class Player:
                 MAX_HORDE_DISTANCE - 2, MAX_HORDE_DISTANCE)
         # Other players' castles have 30% chance of decreasing in horde distance
         for player in players:
+            if player.has_lost:
+                continue
             if player.index != self.index:
                 for i in range(0, len(player.castles)):
                     probability = random.random()

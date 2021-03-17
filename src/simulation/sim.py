@@ -13,10 +13,6 @@ def perform_simulation(log = False):
 
     horde = Horde(players, log)
     num_rounds = 0
-    
-    print("TESTING INITIAL RESOURCES")
-    for player in players:
-        print(player.resources)
 
     # Each iteration represents a round
     while (True):

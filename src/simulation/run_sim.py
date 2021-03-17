@@ -5,7 +5,7 @@ from sim import perform_simulation
 import sys
 import re
 
-NUM_ITERATIONS = 50
+NUM_ITERATIONS = 1000
 optimal_round_lower = 15  # 1 hour game
 optimal_round_upper = 30  # 2 hour game
 optimal_round_count = (optimal_round_lower + optimal_round_upper) / 2

@@ -2,7 +2,7 @@ import random
 from collections import Counter
 from enum import Enum
 from buildings import Castle, Road, Outpost
-from constants import Building, BUILD_COSTS, MAX_HORDE_DISTANCE
+from constants import Building, BUILD_COSTS, MAX_HORDE_DISTANCE, BATTLE_DIFFICULTY
 
 DEFENSE_KEY = "defense"
 RESEARCH_KEY = "research"
@@ -152,7 +152,7 @@ class Player:
     def handle_turn(self, horde):
         if self.log:
             print("PLAYER {}'S TURN BEGINS.".format(self.index))
-        win_probability = self.num_knights / (horde.size * 1.5)
+        win_probability = self.num_knights / (horde.size * BATTLE_DIFFICULTY)
         can_attack = self.able_to_attack(horde)
 
         if self.strategy == Strategy.GENERAL:
@@ -260,7 +260,7 @@ class Player:
                 for i in range(0, len(player.castles)):
                     probability = random.random()
                     if probability > 0.5:
-                        horde.approach_castle(player, i)
+                        horde.approach_castle(player, i, False)
 
     def get_barricade_count(self):
         count = 0

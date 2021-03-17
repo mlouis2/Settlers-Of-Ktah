@@ -16,7 +16,7 @@ class Horde:
         if horde_distance > 1:
             player.castles[castle_index].horde_distance = horde_distance - 1
             return False
-        else:
+        elif can_battle:
             self.battle(player)
             return True
 
